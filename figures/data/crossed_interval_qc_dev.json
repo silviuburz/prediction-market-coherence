@@ -1,0 +1,804 @@
+{
+  "summary": {
+    "cohort": "dev",
+    "n_matches": 47,
+    "n_goals": 98,
+    "pre_crossed": 0,
+    "pre_evaluations": 46510,
+    "pre_rate_pct": 0.0,
+    "post_crossed": 0,
+    "post_evaluations": 21240,
+    "post_rate_pct": 0.0,
+    "delta_pp": 0.0,
+    "goals_with_any_cross": 0,
+    "mean_per_goal_delta_pp": 0.0,
+    "contracts_ever_crossed": 0,
+    "top_contracts": []
+  },
+  "per_goal": [
+    {
+      "match": "arg-che-2026-07-11",
+      "w": 1783818618.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "arg-che-2026-07-11",
+      "w": 1783823298.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "arg-cvi-2026-07-03",
+      "w": 1783117710.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "arg-cvi-2026-07-03",
+      "w": 1783120776.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "arg-egy-2026-07-07",
+      "w": 1783440950.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "arg-egy-2026-07-07",
+      "w": 1783445449.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "arg-egy-2026-07-07",
+      "w": 1783446958.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "bra-jpn-2026-06-29",
+      "w": 1782754143.0,
+      "pre_cross": 0,
+      "pre_both": 429,
+      "post_cross": 0,
+      "post_both": 195
+    },
+    {
+      "match": "bra-jpn-2026-06-29",
+      "w": 1782757017.0,
+      "pre_cross": 0,
+      "pre_both": 429,
+      "post_cross": 0,
+      "post_both": 195
+    },
+    {
+      "match": "bra-jpn-2026-06-29",
+      "w": 1782759411.0,
+      "pre_cross": 0,
+      "pre_both": 429,
+      "post_cross": 0,
+      "post_both": 195
+    },
+    {
+      "match": "bra-mar-2026-06-13",
+      "w": 1781389478.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "bra-mar-2026-06-13",
+      "w": 1781390145.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "can-bih-2026-06-12",
+      "w": 1781292165.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "can-bih-2026-06-12",
+      "w": 1781296774.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "che-alg-2026-07-02",
+      "w": 1783048212.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "che-alg-2026-07-02",
+      "w": 1783051549.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "che-bih-2026-06-18",
+      "w": 1781814781.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "che-bih-2026-06-18",
+      "w": 1781815384.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "col-cdr-2026-06-23",
+      "w": 1782272186.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "ecu-ger-2026-06-25",
+      "w": 1782418116.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "ecu-ger-2026-06-25",
+      "w": 1782423469.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "eng-arg-2026-07-15",
+      "w": 1784146530.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "eng-arg-2026-07-15",
+      "w": 1784148360.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "eng-arg-2026-07-15",
+      "w": 1784148753.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "eng-hrv-2026-06-17",
+      "w": 1781727087.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "eng-hrv-2026-06-17",
+      "w": 1781728543.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "eng-hrv-2026-06-17",
+      "w": 1781728886.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "eng-hrv-2026-06-17",
+      "w": 1781729404.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "eng-hrv-2026-06-17",
+      "w": 1781730644.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "eng-hrv-2026-06-17",
+      "w": 1781732946.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "esp-aut-2026-07-02",
+      "w": 1783020973.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "esp-aut-2026-07-02",
+      "w": 1783024056.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "esp-aut-2026-07-02",
+      "w": 1783025421.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "esp-ksa-2026-06-21",
+      "w": 1782058250.0,
+      "pre_cross": 0,
+      "pre_both": 220,
+      "post_cross": 0,
+      "post_both": 100
+    },
+    {
+      "match": "esp-ksa-2026-06-21",
+      "w": 1782061875.0,
+      "pre_cross": 0,
+      "pre_both": 220,
+      "post_cross": 0,
+      "post_both": 100
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "w": 1784409485.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "w": 1784410583.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "w": 1784411165.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "w": 1784412633.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "w": 1784413001.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "w": 1784413733.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "w": 1784414983.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-esp-2026-07-14",
+      "w": 1784056919.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-esp-2026-07-14",
+      "w": 1784060372.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-irq-2026-06-22",
+      "w": 1782162857.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-irq-2026-06-22",
+      "w": 1782173365.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-irq-2026-06-22",
+      "w": 1782174095.0,
+      "pre_cross": 0,
+      "pre_both": 288,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-swe-2026-06-30",
+      "w": 1782855892.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-swe-2026-06-30",
+      "w": 1782857480.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "fra-swe-2026-06-30",
+      "w": 1782858751.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "gha-pan-2026-06-17",
+      "w": 1781744148.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "hrv-gha-2026-06-27",
+      "w": 1782595929.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "hrv-gha-2026-06-27",
+      "w": 1782599628.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "hrv-gha-2026-06-27",
+      "w": 1782600208.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "irn-nzl-2026-06-15",
+      "w": 1781572235.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "irn-nzl-2026-06-15",
+      "w": 1781573740.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "irn-nzl-2026-06-15",
+      "w": 1781576496.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "irn-nzl-2026-06-15",
+      "w": 1781577040.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "jor-alg-2026-06-22",
+      "w": 1782185765.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "jor-alg-2026-06-22",
+      "w": 1782189039.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "jor-alg-2026-06-22",
+      "w": 1782189856.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "ksa-ury-2026-06-15",
+      "w": 1781563446.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "ksa-ury-2026-06-15",
+      "w": 1781567126.0,
+      "pre_cross": 0,
+      "pre_both": 407,
+      "post_cross": 0,
+      "post_both": 185
+    },
+    {
+      "match": "mar-hai-2026-06-24",
+      "w": 1782339035.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "mar-hai-2026-06-24",
+      "w": 1782344398.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "mar-hai-2026-06-24",
+      "w": 1782345066.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nld-jpn-2026-06-14",
+      "w": 1781471352.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "nld-jpn-2026-06-14",
+      "w": 1781471754.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "nld-jpn-2026-06-14",
+      "w": 1781472138.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "nld-jpn-2026-06-14",
+      "w": 1781473631.0,
+      "pre_cross": 0,
+      "pre_both": 440,
+      "post_cross": 0,
+      "post_both": 200
+    },
+    {
+      "match": "nor-eng-2026-07-11",
+      "w": 1783805785.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nor-eng-2026-07-11",
+      "w": 1783806452.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nor-fra-2026-06-26",
+      "w": 1782500863.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nor-fra-2026-06-26",
+      "w": 1782502400.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nzl-bel-2026-06-26",
+      "w": 1782530918.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nzl-bel-2026-06-26",
+      "w": 1782533538.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nzl-bel-2026-06-26",
+      "w": 1782534514.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nzl-egy-2026-06-21",
+      "w": 1782090885.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nzl-egy-2026-06-21",
+      "w": 1782094699.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nzl-egy-2026-06-21",
+      "w": 1782095237.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "nzl-egy-2026-06-21",
+      "w": 1782096101.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "pan-hrv-2026-06-23",
+      "w": 1782259962.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "prt-cdr-2026-06-17",
+      "w": 1781718659.0,
+      "pre_cross": 0,
+      "pre_both": 418,
+      "post_cross": 0,
+      "post_both": 190
+    },
+    {
+      "match": "prt-esp-2026-07-06",
+      "w": 1783371170.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "qat-che-2026-06-13",
+      "w": 1781378480.0,
+      "pre_cross": 0,
+      "pre_both": 286,
+      "post_cross": 0,
+      "post_both": 130
+    },
+    {
+      "match": "rsa-can-2026-06-28",
+      "w": 1782679889.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "sco-bra-2026-06-24",
+      "w": 1782338881.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "sco-bra-2026-06-24",
+      "w": 1782341343.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "sco-bra-2026-06-24",
+      "w": 1782343511.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "tun-jpn-2026-06-21",
+      "w": 1782016211.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "tun-jpn-2026-06-21",
+      "w": 1782019690.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "tun-jpn-2026-06-21",
+      "w": 1782020580.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "tun-nld-2026-06-25",
+      "w": 1782432770.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "tun-nld-2026-06-25",
+      "w": 1782433240.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "usa-bel-2026-07-06",
+      "w": 1783382950.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "usa-bel-2026-07-06",
+      "w": 1783387236.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "usa-bih-2026-07-01",
+      "w": 1782953068.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    },
+    {
+      "match": "usa-bih-2026-07-01",
+      "w": 1782956866.0,
+      "pre_cross": 0,
+      "pre_both": 506,
+      "post_cross": 0,
+      "post_both": 230
+    }
+  ]
+}

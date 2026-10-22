@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-07-31T17:03:37Z",
+  "added_family": "first-to-score",
+  "added_rule": "1{h == 0 and a == 0}",
+  "settlement_check": "103 of 103 markets agree, 0 disagreements",
+  "note": "Post-holdout sensitivity. The frozen compiler is a recorded producer and is not modified; the rule is added at run time. Adding a contract can only raise S at a fixed instant.",
+  "runs": [
+    {
+      "cohort": "dev",
+      "label": "dev_ftsn",
+      "D_cents": 0.6779019524346906,
+      "ci_cents": [
+        0.5146301298871981,
+        0.8504095724361677
+      ],
+      "n_events": 98,
+      "n_matches": 39,
+      "n_pos": 37,
+      "seconds": 706.8
+    },
+    {
+      "cohort": "holdout",
+      "label": "holdout_ftsn",
+      "D_cents": 0.4446397371004474,
+      "ci_cents": [
+        0.33139670633184554,
+        0.5635318860620057
+      ],
+      "n_events": 125,
+      "n_matches": 51,
+      "n_pos": 45,
+      "seconds": 837.9
+    }
+  ]
+}

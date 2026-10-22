@@ -1,0 +1,236 @@
+{
+  "recorded_outputs": 63,
+  "counts": {
+    "identical": 47,
+    "timestamp": 10,
+    "reordered": 2,
+    "additive": 2,
+    "MOVED": 2,
+    "UNREADABLE": 0,
+    "missing": 0
+  },
+  "buckets": {
+    "identical": [
+      "results/anchor_precision.json",
+      "results/clause_inventory.json",
+      "results/dev/crossed_interval_qc.json",
+      "results/dev/long_form.jsonl",
+      "results/dev/spec_curve.json",
+      "results/dev/spec_curve_equal_match.json",
+      "results/dev/spec_curve_event.json",
+      "results/dev_FROZEN_BACKUP/event_study.json",
+      "results/dev_FROZEN_BACKUP/long_form.jsonl",
+      "results/dev_FROZEN_BACKUP/spec_curve.json",
+      "results/dev_FROZEN_BACKUP/spec_curve_equal_match.json",
+      "results/dev_FROZEN_BACKUP/spec_curve_event.json",
+      "results/dev_cancel/long_form.jsonl",
+      "results/f1_validate_all.json",
+      "results/family_attribution_dev.json",
+      "results/family_attribution_holdout.json",
+      "results/family_attribution_v2_dev.json",
+      "results/family_attribution_v2_holdout.json",
+      "results/g2_pilot_summary.json",
+      "results/g2b_staleness.json",
+      "results/g2c_envelope.json",
+      "results/g3_event_study.json",
+      "results/g3b_dev_event_study.json",
+      "results/g3b_long_form.jsonl",
+      "results/holdout/crossed_interval_qc.json",
+      "results/holdout/long_form.jsonl",
+      "results/holdout/spec_curve.json",
+      "results/holdout/spec_curve_equal_match.json",
+      "results/holdout/spec_curve_event.json",
+      "results/holdout_FROZEN_BACKUP/event_study.json",
+      "results/holdout_FROZEN_BACKUP/long_form.jsonl",
+      "results/holdout_FROZEN_BACKUP/spec_curve.json",
+      "results/holdout_FROZEN_BACKUP/spec_curve_equal_match.json",
+      "results/holdout_FROZEN_BACKUP/spec_curve_event.json",
+      "results/holdout_cancel/long_form.jsonl",
+      "results/matched_placebo.json",
+      "results/placebo_suite.json",
+      "results/qc_goal_table.json",
+      "results/randomization_test.json",
+      "results/regulation_scores.json",
+      "results/rq3_propagation.json",
+      "results/rq3_v2_events.jsonl",
+      "results/rq3_v2_summary.json",
+      "results/saturation_lemma.json",
+      "results/spec_curve_v2_summary.json",
+      "results/spec_curve_v3.json",
+      "results/split_lottery.json"
+    ],
+    "timestamp": [
+      "results/availability_census.json",
+      "results/dev/event_study.json",
+      "results/freshness_straddle_dev.json",
+      "results/freshness_straddle_holdout.json",
+      "results/holdout/event_study.json",
+      "results/l1_functional_dev.json",
+      "results/subsystem_availability_dev.json",
+      "results/subsystem_availability_holdout.json",
+      "results/tick_null_no_exact_score_dev.json",
+      "results/tick_null_no_exact_score_holdout.json"
+    ],
+    "reordered": [
+      "results/dev/match_stats.json.gz",
+      "results/holdout/match_stats.json.gz"
+    ],
+    "additive": [
+      "results/tick_null_dev.json",
+      "results/tick_null_holdout.json"
+    ],
+    "MOVED": [
+      "results/dev_cancel/event_study.json",
+      "results/holdout_cancel/event_study.json"
+    ],
+    "UNREADABLE": [],
+    "missing": []
+  },
+  "details": {
+    "results/availability_census.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/dev/event_study.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/dev/match_stats.json.gz": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": []
+    },
+    "results/dev_cancel/event_study.json": {
+      "added": 136,
+      "removed": 0,
+      "moved_count": 1,
+      "moved": [
+        "rand_p"
+      ],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/freshness_straddle_dev.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/freshness_straddle_holdout.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/holdout/event_study.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/holdout/match_stats.json.gz": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": []
+    },
+    "results/holdout_cancel/event_study.json": {
+      "added": 172,
+      "removed": 0,
+      "moved_count": 1,
+      "moved": [
+        "rand_p"
+      ],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/l1_functional_dev.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/subsystem_availability_dev.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/subsystem_availability_holdout.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/tick_null_dev.json": {
+      "added": 2,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/tick_null_holdout.json": {
+      "added": 2,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/tick_null_no_exact_score_dev.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    },
+    "results/tick_null_no_exact_score_holdout.json": {
+      "added": 0,
+      "removed": 0,
+      "moved_count": 0,
+      "moved": [],
+      "stamp_fields": [
+        "generated_at"
+      ]
+    }
+  },
+  "verdict": "differs"
+}

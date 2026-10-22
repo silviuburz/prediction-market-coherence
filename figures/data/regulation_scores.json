@@ -1,0 +1,1441 @@
+{
+  "n_matches": 104,
+  "n_regulation_goals": 300,
+  "matches": [
+    {
+      "match": "alg-aut-2026-06-27",
+      "game_id": "760484",
+      "home_team": "Algeria",
+      "away_team": "Austria",
+      "H": 3,
+      "A": 3,
+      "n_regulation_goals": 6,
+      "goal_wallclocks": [
+        1782613708.0,
+        1782614690.0,
+        1782616600.0,
+        1782616890.0,
+        1782618902.0,
+        1782619037.0
+      ]
+    },
+    {
+      "match": "arg-alg-2026-06-16",
+      "game_id": "760433",
+      "home_team": "Argentina",
+      "away_team": "Algeria",
+      "H": 3,
+      "A": 0,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1781659161.0,
+        1781662988.0,
+        1781663943.0
+      ]
+    },
+    {
+      "match": "arg-aut-2026-06-22",
+      "game_id": "760456",
+      "home_team": "Argentina",
+      "away_team": "Austria",
+      "H": 2,
+      "A": 0,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782149941.0,
+        1782154714.0
+      ]
+    },
+    {
+      "match": "arg-che-2026-07-11",
+      "game_id": "760513",
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1783818618.0,
+        1783823298.0
+      ]
+    },
+    {
+      "match": "arg-cvi-2026-07-03",
+      "game_id": "760500",
+      "home_team": "Argentina",
+      "away_team": "Cape Verde",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1783117710.0,
+        1783120776.0
+      ]
+    },
+    {
+      "match": "arg-egy-2026-07-07",
+      "game_id": "760509",
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "H": 3,
+      "A": 2,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1783440950.0,
+        1783445449.0,
+        1783446163.0,
+        1783446422.0,
+        1783446958.0
+      ]
+    },
+    {
+      "match": "aus-egy-2026-07-03",
+      "game_id": "760499",
+      "home_team": "Australia",
+      "away_team": "Egypt",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1783102351.0,
+        1783106168.0
+      ]
+    },
+    {
+      "match": "aus-tur-2026-06-14",
+      "game_id": "760421",
+      "home_team": "Australia",
+      "away_team": "T\u00fcrkiye",
+      "H": 2,
+      "A": 0,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781411213.0,
+        1781415271.0
+      ]
+    },
+    {
+      "match": "aut-jor-2026-06-17",
+      "game_id": "760431",
+      "home_team": "Austria",
+      "away_team": "Jordan",
+      "H": 3,
+      "A": 1,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1781670179.0,
+        1781673260.0,
+        1781674863.0,
+        1781676418.0
+      ]
+    },
+    {
+      "match": "bel-egy-2026-06-15",
+      "game_id": "760426",
+      "home_team": "Belgium",
+      "away_team": "Egypt",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781551174.0,
+        1781555297.0
+      ]
+    },
+    {
+      "match": "bel-irn-2026-06-21",
+      "game_id": "760451",
+      "home_team": "Belgium",
+      "away_team": "Iran",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "bel-sen-2026-07-01",
+      "game_id": "760493",
+      "home_team": "Belgium",
+      "away_team": "Senegal",
+      "H": 2,
+      "A": 2,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782937477.0,
+        1782940392.0,
+        1782942487.0,
+        1782942645.0
+      ]
+    },
+    {
+      "match": "bih-qat-2026-06-24",
+      "game_id": "760462",
+      "home_team": "Bosnia-Herzegovina",
+      "away_team": "Qatar",
+      "H": 3,
+      "A": 1,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782329333.0,
+        1782329640.0,
+        1782330136.0,
+        1782333738.0
+      ]
+    },
+    {
+      "match": "bra-hai-2026-06-19",
+      "game_id": "760444",
+      "home_team": "Brazil",
+      "away_team": "Haiti",
+      "H": 3,
+      "A": 0,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1781916925.0,
+        1781917694.0,
+        1781918384.0
+      ]
+    },
+    {
+      "match": "bra-jpn-2026-06-29",
+      "game_id": "760487",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782754143.0,
+        1782757017.0,
+        1782759411.0
+      ]
+    },
+    {
+      "match": "bra-mar-2026-06-13",
+      "game_id": "760419",
+      "home_team": "Brazil",
+      "away_team": "Morocco",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781389478.0,
+        1781390145.0
+      ]
+    },
+    {
+      "match": "bra-nor-2026-07-05",
+      "game_id": "760504",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "H": 1,
+      "A": 2,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1783287680.0,
+        1783288291.0,
+        1783288925.0
+      ]
+    },
+    {
+      "match": "can-bih-2026-06-12",
+      "game_id": "760416",
+      "home_team": "Canada",
+      "away_team": "Bosnia-Herzegovina",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781292165.0,
+        1781296774.0
+      ]
+    },
+    {
+      "match": "can-mar-2026-07-04",
+      "game_id": "760502",
+      "home_team": "Canada",
+      "away_team": "Morocco",
+      "H": 0,
+      "A": 3,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1783188812.0,
+        1783190733.0,
+        1783191711.0
+      ]
+    },
+    {
+      "match": "can-qat-2026-06-18",
+      "game_id": "760440",
+      "home_team": "Canada",
+      "away_team": "Qatar",
+      "H": 6,
+      "A": 0,
+      "n_regulation_goals": 6,
+      "goal_wallclocks": [
+        1781821003.0,
+        1781821754.0,
+        1781822890.0,
+        1781825099.0,
+        1781825780.0,
+        1781826782.0
+      ]
+    },
+    {
+      "match": "cdr-uzb-2026-06-27",
+      "game_id": "760482",
+      "home_team": "Congo DR",
+      "away_team": "Uzbekistan",
+      "H": 3,
+      "A": 1,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782603642.0,
+        1782608478.0,
+        1782609049.0,
+        1782609839.0
+      ]
+    },
+    {
+      "match": "che-alg-2026-07-02",
+      "game_id": "760498",
+      "home_team": "Switzerland",
+      "away_team": "Algeria",
+      "H": 2,
+      "A": 0,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1783048212.0,
+        1783051549.0
+      ]
+    },
+    {
+      "match": "che-bih-2026-06-18",
+      "game_id": "760439",
+      "home_team": "Switzerland",
+      "away_team": "Bosnia-Herzegovina",
+      "H": 4,
+      "A": 1,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1781814781.0,
+        1781815384.0,
+        1781815721.0,
+        1781815909.0,
+        1781816172.0
+      ]
+    },
+    {
+      "match": "che-can-2026-06-24",
+      "game_id": "760463",
+      "home_team": "Switzerland",
+      "away_team": "Canada",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782331489.0,
+        1782332134.0,
+        1782333261.0
+      ]
+    },
+    {
+      "match": "che-col-2026-07-07",
+      "game_id": "760508",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "civ-ecu-2026-06-14",
+      "game_id": "760423",
+      "home_team": "Ivory Coast",
+      "away_team": "Ecuador",
+      "H": 1,
+      "A": 0,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1781484902.0
+      ]
+    },
+    {
+      "match": "civ-nor-2026-06-30",
+      "game_id": "760490",
+      "home_team": "Ivory Coast",
+      "away_team": "Norway",
+      "H": 1,
+      "A": 2,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782841154.0,
+        1782844418.0,
+        1782845129.0
+      ]
+    },
+    {
+      "match": "col-cdr-2026-06-23",
+      "game_id": "760459",
+      "home_team": "Colombia",
+      "away_team": "Congo DR",
+      "H": 1,
+      "A": 0,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1782272186.0
+      ]
+    },
+    {
+      "match": "col-gha-2026-07-03",
+      "game_id": "760501",
+      "home_team": "Colombia",
+      "away_team": "Ghana",
+      "H": 1,
+      "A": 0,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1783129447.0
+      ]
+    },
+    {
+      "match": "col-prt-2026-06-27",
+      "game_id": "760481",
+      "home_team": "Colombia",
+      "away_team": "Portugal",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "cvi-ksa-2026-06-26",
+      "game_id": "760478",
+      "home_team": "Cape Verde",
+      "away_team": "Saudi Arabia",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "cze-mex-2026-06-24",
+      "game_id": "760467",
+      "home_team": "Czechia",
+      "away_team": "Mexico",
+      "H": 0,
+      "A": 3,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782353694.0,
+        1782354071.0,
+        1782356028.0
+      ]
+    },
+    {
+      "match": "cze-rsa-2026-06-18",
+      "game_id": "760438",
+      "home_team": "Czechia",
+      "away_team": "South Africa",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781798721.0,
+        1781804651.0
+      ]
+    },
+    {
+      "match": "ecu-ger-2026-06-25",
+      "game_id": "760468",
+      "home_team": "Ecuador",
+      "away_team": "Germany",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782417719.0,
+        1782418116.0,
+        1782423469.0
+      ]
+    },
+    {
+      "match": "ecu-kor-2026-06-20",
+      "game_id": "760446",
+      "home_team": "Ecuador",
+      "away_team": "Cura\u00e7ao",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "egy-irn-2026-06-26",
+      "game_id": "760476",
+      "home_team": "Egypt",
+      "away_team": "Iran",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782529517.0,
+        1782530044.0
+      ]
+    },
+    {
+      "match": "eng-arg-2026-07-15",
+      "game_id": "760515",
+      "home_team": "England",
+      "away_team": "Argentina",
+      "H": 1,
+      "A": 2,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1784146530.0,
+        1784148360.0,
+        1784148753.0
+      ]
+    },
+    {
+      "match": "eng-cdr-2026-07-01",
+      "game_id": "760495",
+      "home_team": "England",
+      "away_team": "Congo DR",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782922008.0,
+        1782927437.0,
+        1782928128.0
+      ]
+    },
+    {
+      "match": "eng-gha-2026-06-23",
+      "game_id": "760458",
+      "home_team": "England",
+      "away_team": "Ghana",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "eng-hrv-2026-06-17",
+      "game_id": "760437",
+      "home_team": "England",
+      "away_team": "Croatia",
+      "H": 4,
+      "A": 2,
+      "n_regulation_goals": 6,
+      "goal_wallclocks": [
+        1781727087.0,
+        1781728543.0,
+        1781728886.0,
+        1781729404.0,
+        1781730644.0,
+        1781732946.0
+      ]
+    },
+    {
+      "match": "esp-arg-2026-07-19",
+      "game_id": "760517",
+      "home_team": "Spain",
+      "away_team": "Argentina",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "esp-aut-2026-07-02",
+      "game_id": "760497",
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "H": 3,
+      "A": 0,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1783020973.0,
+        1783024056.0,
+        1783025421.0
+      ]
+    },
+    {
+      "match": "esp-bel-2026-07-10",
+      "game_id": "760511",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1783711797.0,
+        1783712447.0,
+        1783716573.0
+      ]
+    },
+    {
+      "match": "esp-cvi-2026-06-15",
+      "game_id": "760428",
+      "home_team": "Spain",
+      "away_team": "Cape Verde",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "esp-ksa-2026-06-21",
+      "game_id": "760453",
+      "home_team": "Spain",
+      "away_team": "Saudi Arabia",
+      "H": 4,
+      "A": 0,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782058250.0,
+        1782058887.0,
+        1782059034.0,
+        1782061875.0
+      ]
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "game_id": "760516",
+      "home_team": "France",
+      "away_team": "England",
+      "H": 4,
+      "A": 6,
+      "n_regulation_goals": 10,
+      "goal_wallclocks": [
+        1784408547.0,
+        1784409485.0,
+        1784410583.0,
+        1784411165.0,
+        1784412633.0,
+        1784413001.0,
+        1784413733.0,
+        1784414983.0,
+        1784415507.0,
+        1784415618.0
+      ]
+    },
+    {
+      "match": "fra-esp-2026-07-14",
+      "game_id": "760514",
+      "home_team": "France",
+      "away_team": "Spain",
+      "H": 0,
+      "A": 2,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1784056919.0,
+        1784060372.0
+      ]
+    },
+    {
+      "match": "fra-irq-2026-06-22",
+      "game_id": "760457",
+      "home_team": "France",
+      "away_team": "Iraq",
+      "H": 3,
+      "A": 0,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782162857.0,
+        1782173365.0,
+        1782174095.0
+      ]
+    },
+    {
+      "match": "fra-mar-2026-07-09",
+      "game_id": "760510",
+      "home_team": "France",
+      "away_team": "Morocco",
+      "H": 2,
+      "A": 0,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1783632225.0,
+        1783632587.0
+      ]
+    },
+    {
+      "match": "fra-sen-2026-06-16",
+      "game_id": "760432",
+      "home_team": "France",
+      "away_team": "Senegal",
+      "H": 3,
+      "A": 1,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1781641789.0,
+        1781642754.0,
+        1781643528.0,
+        1781643596.0
+      ]
+    },
+    {
+      "match": "fra-swe-2026-06-30",
+      "game_id": "760492",
+      "home_team": "France",
+      "away_team": "Sweden",
+      "H": 3,
+      "A": 0,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782855892.0,
+        1782857480.0,
+        1782858751.0
+      ]
+    },
+    {
+      "match": "ger-civ-2026-06-20",
+      "game_id": "760448",
+      "home_team": "Germany",
+      "away_team": "Ivory Coast",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1781987347.0,
+        1781991028.0,
+        1781992582.0
+      ]
+    },
+    {
+      "match": "ger-kor-2026-06-14",
+      "game_id": "760422",
+      "home_team": "Germany",
+      "away_team": "Cura\u00e7ao",
+      "H": 7,
+      "A": 1,
+      "n_regulation_goals": 8,
+      "goal_wallclocks": [
+        1781456827.0,
+        1781457753.0,
+        1781458760.0,
+        1781459459.0,
+        1781460581.0,
+        1781461875.0,
+        1781462439.0,
+        1781463075.0
+      ]
+    },
+    {
+      "match": "ger-par-2026-06-29",
+      "game_id": "760489",
+      "home_team": "Germany",
+      "away_team": "Paraguay",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782767494.0,
+        1782769611.0
+      ]
+    },
+    {
+      "match": "gha-pan-2026-06-17",
+      "game_id": "760434",
+      "home_team": "Ghana",
+      "away_team": "Panama",
+      "H": 1,
+      "A": 0,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1781744148.0
+      ]
+    },
+    {
+      "match": "hai-sco-2026-06-13",
+      "game_id": "760418",
+      "home_team": "Haiti",
+      "away_team": "Scotland",
+      "H": 0,
+      "A": 1,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1781400631.0
+      ]
+    },
+    {
+      "match": "hrv-gha-2026-06-27",
+      "game_id": "760480",
+      "home_team": "Croatia",
+      "away_team": "Ghana",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782595929.0,
+        1782599628.0,
+        1782600208.0
+      ]
+    },
+    {
+      "match": "irn-nzl-2026-06-15",
+      "game_id": "760427",
+      "home_team": "Iran",
+      "away_team": "New Zealand",
+      "H": 2,
+      "A": 2,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1781572235.0,
+        1781573740.0,
+        1781576496.0,
+        1781577040.0
+      ]
+    },
+    {
+      "match": "irq-nor-2026-06-16",
+      "game_id": "760430",
+      "home_team": "Iraq",
+      "away_team": "Norway",
+      "H": 1,
+      "A": 4,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1781648959.0,
+        1781649563.0,
+        1781649805.0,
+        1781653143.0,
+        1781654347.0
+      ]
+    },
+    {
+      "match": "jor-alg-2026-06-22",
+      "game_id": "760455",
+      "home_team": "Jordan",
+      "away_team": "Algeria",
+      "H": 1,
+      "A": 2,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782185765.0,
+        1782189039.0,
+        1782189856.0
+      ]
+    },
+    {
+      "match": "jor-arg-2026-06-27",
+      "game_id": "760483",
+      "home_team": "Jordan",
+      "away_team": "Argentina",
+      "H": 1,
+      "A": 3,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782613133.0,
+        1782613850.0,
+        1782616579.0,
+        1782618079.0
+      ]
+    },
+    {
+      "match": "jpn-swe-2026-06-25",
+      "game_id": "760471",
+      "home_team": "Japan",
+      "away_team": "Sweden",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782432965.0,
+        1782433322.0
+      ]
+    },
+    {
+      "match": "kor-civ-2026-06-25",
+      "game_id": "760473",
+      "home_team": "Cura\u00e7ao",
+      "away_team": "Ivory Coast",
+      "H": 0,
+      "A": 2,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782418023.0,
+        1782422679.0
+      ]
+    },
+    {
+      "match": "kr-cze-2026-06-11",
+      "game_id": "760414",
+      "home_team": "South Korea",
+      "away_team": "Czechia",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1781234228.0,
+        1781234741.0,
+        1781235500.0
+      ]
+    },
+    {
+      "match": "ksa-ury-2026-06-15",
+      "game_id": "760429",
+      "home_team": "Saudi Arabia",
+      "away_team": "Uruguay",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781563446.0,
+        1781567126.0
+      ]
+    },
+    {
+      "match": "mar-hai-2026-06-24",
+      "game_id": "760464",
+      "home_team": "Morocco",
+      "away_team": "Haiti",
+      "H": 4,
+      "A": 2,
+      "n_regulation_goals": 6,
+      "goal_wallclocks": [
+        1782339035.0,
+        1782340762.0,
+        1782340991.0,
+        1782341161.0,
+        1782344398.0,
+        1782345066.0
+      ]
+    },
+    {
+      "match": "mex-ecu-2026-06-30",
+      "game_id": "760491",
+      "home_team": "Mexico",
+      "away_team": "Ecuador",
+      "H": 2,
+      "A": 0,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782872521.0,
+        1782873075.0
+      ]
+    },
+    {
+      "match": "mex-eng-2026-07-05",
+      "game_id": "760505",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "H": 2,
+      "A": 3,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1783301765.0,
+        1783301863.0,
+        1783302119.0,
+        1783304534.0,
+        1783305058.0
+      ]
+    },
+    {
+      "match": "mex-kr-2026-06-18",
+      "game_id": "760441",
+      "home_team": "Mexico",
+      "away_team": "South Korea",
+      "H": 1,
+      "A": 0,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1781834986.0
+      ]
+    },
+    {
+      "match": "mex-rsa-2026-06-11",
+      "game_id": "760415",
+      "home_team": "Mexico",
+      "away_team": "South Africa",
+      "H": 2,
+      "A": 0,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781205269.0,
+        1781209987.0
+      ]
+    },
+    {
+      "match": "nld-jpn-2026-06-14",
+      "game_id": "760425",
+      "home_team": "Netherlands",
+      "away_team": "Japan",
+      "H": 2,
+      "A": 2,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1781471352.0,
+        1781471754.0,
+        1781472138.0,
+        1781473631.0
+      ]
+    },
+    {
+      "match": "nld-mar-2026-06-29",
+      "game_id": "760488",
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782786811.0,
+        1782787934.0
+      ]
+    },
+    {
+      "match": "nld-swe-2026-06-20",
+      "game_id": "760447",
+      "home_team": "Netherlands",
+      "away_team": "Sweden",
+      "H": 5,
+      "A": 1,
+      "n_regulation_goals": 6,
+      "goal_wallclocks": [
+        1781975108.0,
+        1781975783.0,
+        1781978894.0,
+        1781979304.0,
+        1781979568.0,
+        1781981392.0
+      ]
+    },
+    {
+      "match": "nor-eng-2026-07-11",
+      "game_id": "760512",
+      "home_team": "Norway",
+      "away_team": "England",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1783805785.0,
+        1783806452.0
+      ]
+    },
+    {
+      "match": "nor-fra-2026-06-26",
+      "game_id": "760475",
+      "home_team": "Norway",
+      "away_team": "France",
+      "H": 1,
+      "A": 4,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1782500863.0,
+        1782501650.0,
+        1782501731.0,
+        1782502400.0,
+        1782507441.0
+      ]
+    },
+    {
+      "match": "nor-sen-2026-06-22",
+      "game_id": "760454",
+      "home_team": "Norway",
+      "away_team": "Senegal",
+      "H": 3,
+      "A": 2,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1782175371.0,
+        1782176814.0,
+        1782177124.0,
+        1782177392.0,
+        1782179498.0
+      ]
+    },
+    {
+      "match": "nzl-bel-2026-06-26",
+      "game_id": "760477",
+      "home_team": "New Zealand",
+      "away_team": "Belgium",
+      "H": 1,
+      "A": 5,
+      "n_regulation_goals": 6,
+      "goal_wallclocks": [
+        1782530918.0,
+        1782533538.0,
+        1782534514.0,
+        1782535562.0,
+        1782535676.0,
+        1782536189.0
+      ]
+    },
+    {
+      "match": "nzl-egy-2026-06-21",
+      "game_id": "760452",
+      "home_team": "New Zealand",
+      "away_team": "Egypt",
+      "H": 1,
+      "A": 3,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782090885.0,
+        1782094699.0,
+        1782095237.0,
+        1782096101.0
+      ]
+    },
+    {
+      "match": "pan-eng-2026-06-27",
+      "game_id": "760485",
+      "home_team": "Panama",
+      "away_team": "England",
+      "H": 0,
+      "A": 2,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782598828.0,
+        1782599139.0
+      ]
+    },
+    {
+      "match": "pan-hrv-2026-06-23",
+      "game_id": "760460",
+      "home_team": "Panama",
+      "away_team": "Croatia",
+      "H": 0,
+      "A": 1,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1782259962.0
+      ]
+    },
+    {
+      "match": "par-aus-2026-06-25",
+      "game_id": "760469",
+      "home_team": "Paraguay",
+      "away_team": "Australia",
+      "H": 0,
+      "A": 0,
+      "n_regulation_goals": 0,
+      "goal_wallclocks": []
+    },
+    {
+      "match": "par-fra-2026-07-04",
+      "game_id": "760503",
+      "home_team": "Paraguay",
+      "away_team": "France",
+      "H": 0,
+      "A": 1,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1783204406.0
+      ]
+    },
+    {
+      "match": "prt-cdr-2026-06-17",
+      "game_id": "760435",
+      "home_team": "Portugal",
+      "away_team": "Congo DR",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781716012.0,
+        1781718659.0
+      ]
+    },
+    {
+      "match": "prt-esp-2026-07-06",
+      "game_id": "760506",
+      "home_team": "Portugal",
+      "away_team": "Spain",
+      "H": 0,
+      "A": 1,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1783371170.0
+      ]
+    },
+    {
+      "match": "prt-hrv-2026-07-02",
+      "game_id": "760496",
+      "home_team": "Portugal",
+      "away_team": "Croatia",
+      "H": 2,
+      "A": 1,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1783037578.0,
+        1783038439.0,
+        1783040002.0
+      ]
+    },
+    {
+      "match": "prt-uzb-2026-06-23",
+      "game_id": "760461",
+      "home_team": "Portugal",
+      "away_team": "Uzbekistan",
+      "H": 5,
+      "A": 0,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1782234365.0,
+        1782234999.0,
+        1782236301.0,
+        1782238999.0,
+        1782240658.0
+      ]
+    },
+    {
+      "match": "qat-che-2026-06-13",
+      "game_id": "760420",
+      "home_team": "Qatar",
+      "away_team": "Switzerland",
+      "H": 1,
+      "A": 1,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781378480.0,
+        1781384468.0
+      ]
+    },
+    {
+      "match": "rsa-can-2026-06-28",
+      "game_id": "760486",
+      "home_team": "South Africa",
+      "away_team": "Canada",
+      "H": 0,
+      "A": 1,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1782679889.0
+      ]
+    },
+    {
+      "match": "rsa-kr-2026-06-24",
+      "game_id": "760466",
+      "home_team": "South Africa",
+      "away_team": "South Korea",
+      "H": 1,
+      "A": 0,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1782354188.0
+      ]
+    },
+    {
+      "match": "sco-bra-2026-06-24",
+      "game_id": "760465",
+      "home_team": "Scotland",
+      "away_team": "Brazil",
+      "H": 0,
+      "A": 3,
+      "n_regulation_goals": 3,
+      "goal_wallclocks": [
+        1782338881.0,
+        1782341343.0,
+        1782343511.0
+      ]
+    },
+    {
+      "match": "sco-mar-2026-06-19",
+      "game_id": "760445",
+      "home_team": "Scotland",
+      "away_team": "Morocco",
+      "H": 0,
+      "A": 1,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1781906483.0
+      ]
+    },
+    {
+      "match": "sen-irq-2026-06-26",
+      "game_id": "760474",
+      "home_team": "Senegal",
+      "away_team": "Iraq",
+      "H": 5,
+      "A": 0,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1782500747.0,
+        1782505404.0,
+        1782505584.0,
+        1782506328.0,
+        1782506983.0
+      ]
+    },
+    {
+      "match": "swe-tun-2026-06-14",
+      "game_id": "760424",
+      "home_team": "Sweden",
+      "away_team": "Tunisia",
+      "H": 5,
+      "A": 1,
+      "n_regulation_goals": 6,
+      "goal_wallclocks": [
+        1781489221.0,
+        1781490588.0,
+        1781491389.0,
+        1781493579.0,
+        1781495052.0,
+        1781495746.0
+      ]
+    },
+    {
+      "match": "tun-jpn-2026-06-21",
+      "game_id": "760449",
+      "home_team": "Tunisia",
+      "away_team": "Japan",
+      "H": 0,
+      "A": 4,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782014613.0,
+        1782016211.0,
+        1782019690.0,
+        1782020580.0
+      ]
+    },
+    {
+      "match": "tun-nld-2026-06-25",
+      "game_id": "760472",
+      "home_team": "Tunisia",
+      "away_team": "Netherlands",
+      "H": 1,
+      "A": 3,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782428548.0,
+        1782428790.0,
+        1782432770.0,
+        1782433240.0
+      ]
+    },
+    {
+      "match": "tur-par-2026-06-19",
+      "game_id": "760443",
+      "home_team": "T\u00fcrkiye",
+      "away_team": "Paraguay",
+      "H": 0,
+      "A": 1,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1781924472.0
+      ]
+    },
+    {
+      "match": "tur-usa-2026-06-25",
+      "game_id": "760470",
+      "home_team": "T\u00fcrkiye",
+      "away_team": "United States",
+      "H": 3,
+      "A": 2,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1782439343.0,
+        1782439796.0,
+        1782441039.0,
+        1782443460.0,
+        1782446446.0
+      ]
+    },
+    {
+      "match": "ury-cvi-2026-06-21",
+      "game_id": "760450",
+      "home_team": "Uruguay",
+      "away_team": "Cape Verde",
+      "H": 2,
+      "A": 2,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1782080463.0,
+        1782081822.0,
+        1782082242.0,
+        1782084358.0
+      ]
+    },
+    {
+      "match": "ury-esp-2026-06-26",
+      "game_id": "760479",
+      "home_team": "Uruguay",
+      "away_team": "Spain",
+      "H": 0,
+      "A": 1,
+      "n_regulation_goals": 1,
+      "goal_wallclocks": [
+        1782520953.0
+      ]
+    },
+    {
+      "match": "usa-aus-2026-06-19",
+      "game_id": "760442",
+      "home_team": "United States",
+      "away_team": "Australia",
+      "H": 2,
+      "A": 0,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1781896243.0,
+        1781898208.0
+      ]
+    },
+    {
+      "match": "usa-bel-2026-07-06",
+      "game_id": "760507",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "H": 1,
+      "A": 4,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1783382950.0,
+        1783384265.0,
+        1783384380.0,
+        1783387236.0,
+        1783389385.0
+      ]
+    },
+    {
+      "match": "usa-bih-2026-07-01",
+      "game_id": "760494",
+      "home_team": "United States",
+      "away_team": "Bosnia-Herzegovina",
+      "H": 2,
+      "A": 0,
+      "n_regulation_goals": 2,
+      "goal_wallclocks": [
+        1782953068.0,
+        1782956866.0
+      ]
+    },
+    {
+      "match": "usa-par-2026-06-12",
+      "game_id": "760417",
+      "home_team": "United States",
+      "away_team": "Paraguay",
+      "H": 4,
+      "A": 1,
+      "n_regulation_goals": 5,
+      "goal_wallclocks": [
+        1781312943.0,
+        1781314353.0,
+        1781315476.0,
+        1781318208.0,
+        1781319686.0
+      ]
+    },
+    {
+      "match": "uzb-col-2026-06-17",
+      "game_id": "760436",
+      "home_team": "Uzbekistan",
+      "away_team": "Colombia",
+      "H": 1,
+      "A": 3,
+      "n_regulation_goals": 4,
+      "goal_wallclocks": [
+        1781750408.0,
+        1781752845.0,
+        1781753155.0,
+        1781755151.0
+      ]
+    }
+  ]
+}

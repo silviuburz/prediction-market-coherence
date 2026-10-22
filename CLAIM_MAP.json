@@ -1,0 +1,5081 @@
+{
+  "generated_utc": "2026-10-22T19:53:45+00:00",
+  "auditor": "check_numeric_claims.py",
+  "rerun": "python tools/check_numeric_claims.py --package .",
+  "article_doi": "10.1109/ACCESS.2026.3746471",
+  "scope": "Numeric claims and artifact consistency; manuscript wording is not checked.",
+  "artifact_count": 35,
+  "check_count": 354,
+  "checks_with_source": 320,
+  "artifacts": [
+    {
+      "path": "figures/data/event_study_holdout.json",
+      "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37",
+      "bytes": 18417
+    },
+    {
+      "path": "figures/data/event_study_dev.json",
+      "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff",
+      "bytes": 15634
+    },
+    {
+      "path": "figures/data/placebo_suite.json",
+      "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b",
+      "bytes": 5838
+    },
+    {
+      "path": "figures/data/spec_curve_v3.json",
+      "sha256": "aed34c99ace38d1d4f71963cf30b55994ddccc6bb1daa4a09b20aa11ed5b8732",
+      "bytes": 422825
+    },
+    {
+      "path": "figures/data/randomization_null.json",
+      "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386",
+      "bytes": 225255
+    },
+    {
+      "path": "figures/data/family_attribution_v2_holdout.json",
+      "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5",
+      "bytes": 5284
+    },
+    {
+      "path": "figures/data/rq3_v2_summary.json",
+      "sha256": "8a15253b09cca78bd0fc4601c2a4ec1419d34cce5d39515346882f0f55c5c66d",
+      "bytes": 7349
+    },
+    {
+      "path": "figures/data/matched_placebo.json",
+      "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946",
+      "bytes": 5144
+    },
+    {
+      "path": "figures/data/crossed_interval_qc_dev.json",
+      "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322",
+      "bytes": 16672
+    },
+    {
+      "path": "figures/data/crossed_interval_qc_holdout.json",
+      "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2",
+      "bytes": 21318
+    },
+    {
+      "path": "figures/data/saturation_lemma.json",
+      "sha256": "3386c1e0003d3aaae81261ee9e6a2b4161877509a78cb0e1a392965a35ef8ffe",
+      "bytes": 418
+    },
+    {
+      "path": "figures/data/tick_null_no_exact_score_holdout.json",
+      "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af",
+      "bytes": 1357
+    },
+    {
+      "path": "figures/data/tick_null_no_exact_score_dev.json",
+      "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c",
+      "bytes": 1353
+    },
+    {
+      "path": "figures/data/corrected_specification.json",
+      "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c",
+      "bytes": 2310
+    },
+    {
+      "path": "figures/data/event_funnel.json",
+      "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9",
+      "bytes": 2002
+    },
+    {
+      "path": "figures/data/anchor_precision.json",
+      "sha256": "dbcbe30d4f255e95d2a60ddefc295ddaafe50e20289512eaf9832671ae8f0cf9",
+      "bytes": 3890
+    },
+    {
+      "path": "figures/data/split_lottery.json",
+      "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051",
+      "bytes": 487
+    },
+    {
+      "path": "figures/data/availability_census.json",
+      "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884",
+      "bytes": 2198
+    },
+    {
+      "path": "figures/data/subsystem_availability_holdout.json",
+      "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1",
+      "bytes": 3282
+    },
+    {
+      "path": "figures/data/subsystem_availability_dev.json",
+      "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1",
+      "bytes": 3273
+    },
+    {
+      "path": "figures/data/freshness_straddle_holdout.json",
+      "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489",
+      "bytes": 1424
+    },
+    {
+      "path": "figures/data/freshness_straddle_dev.json",
+      "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568",
+      "bytes": 1409
+    },
+    {
+      "path": "figures/data/fail_closed_breakdown.json",
+      "sha256": "74c326a6cb40560159fe47b53159cc5794a89a8516b324a61bd5d93b0b16b470",
+      "bytes": 670861
+    },
+    {
+      "path": "figures/data/first_to_score_neither.json",
+      "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e",
+      "bytes": 944
+    },
+    {
+      "path": "figures/data/description_validation.json",
+      "sha256": "3d7ae4a1d489536e70efd622fd47bafe412d0e87be911acdff85c0cdba733023",
+      "bytes": 519
+    },
+    {
+      "path": "figures/data/outcome_orientation.json",
+      "sha256": "a9188584eaca5d2a89e562f21d2f8daef1387721a3502db08119b512b267fc66",
+      "bytes": 206
+    },
+    {
+      "path": "figures/data/system_composition.json",
+      "sha256": "745e0b989615c2a6be805e8184b5976a75bca822b70f0dd9663f5110c9219579",
+      "bytes": 1663
+    },
+    {
+      "path": "figures/data/event_time_profiles.json",
+      "sha256": "4355f546ce210a70ce54566f3d765a900a71d6a0c550691bbf25cebe61c90c02",
+      "bytes": 114750
+    },
+    {
+      "path": "figures/data/cycle_period.json",
+      "sha256": "3aa5bd3e23fd2396c1c4e03d893ffa57e1824be59a94fc64373e7d93e1f9195f",
+      "bytes": 433
+    },
+    {
+      "path": "figures/data/capture_skew.json",
+      "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874",
+      "bytes": 1983
+    },
+    {
+      "path": "figures/data/freshness_twosided_summary.json",
+      "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576",
+      "bytes": 4811
+    },
+    {
+      "path": "figures/data/size_matched_deletion.json",
+      "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d",
+      "bytes": 1175
+    },
+    {
+      "path": "figures/data/tick_null_holdout.json",
+      "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48",
+      "bytes": 1222
+    },
+    {
+      "path": "figures/data/tick_null_dev.json",
+      "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1",
+      "bytes": 1213
+    },
+    {
+      "path": "figures/data/l1_functional_dev.json",
+      "sha256": "06a340fa3ea95264b9f0c3b0629f2508511695cba4c5d3c2a3e7c40d22478833",
+      "bytes": 793
+    }
+  ],
+  "checks": [
+    {
+      "line": 75,
+      "label": "holdout D",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 76,
+      "label": "holdout CI lo",
+      "claimed": "0.319",
+      "actual": "0.319",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 77,
+      "label": "holdout CI hi",
+      "claimed": "0.557",
+      "actual": "0.557",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 78,
+      "label": "holdout LOO lo",
+      "claimed": "0.415",
+      "actual": "0.415",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 79,
+      "label": "holdout LOO hi",
+      "claimed": "0.457",
+      "actual": "0.457",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 80,
+      "label": "holdout n_matches",
+      "claimed": "51",
+      "actual": "51",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 81,
+      "label": "holdout n_events",
+      "claimed": "125",
+      "actual": "125",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 82,
+      "label": "holdout n_pos",
+      "claimed": "43",
+      "actual": "43",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 83,
+      "label": "dev D",
+      "claimed": "0.667",
+      "actual": "0.667",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 84,
+      "label": "dev CI lo",
+      "claimed": "0.510",
+      "actual": "0.510",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 85,
+      "label": "dev CI hi",
+      "claimed": "0.838",
+      "actual": "0.838",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 86,
+      "label": "dev n_pos",
+      "claimed": "37",
+      "actual": "37",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 87,
+      "label": "shrinkage %",
+      "claimed": "35.0",
+      "actual": "34.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 91,
+      "label": "holdout all-goals D",
+      "claimed": "0.478",
+      "actual": "0.478",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 92,
+      "label": "holdout all-goals n",
+      "claimed": "141",
+      "actual": "141",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 93,
+      "label": "dev all-goals D",
+      "claimed": "0.658",
+      "actual": "0.658",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        },
+        {
+          "artifact": "event_study_dev.json",
+          "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+        }
+      ]
+    },
+    {
+      "line": 102,
+      "label": "corrected holdout D",
+      "claimed": "0.425",
+      "actual": "0.425",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 103,
+      "label": "corrected holdout CI lo",
+      "claimed": "0.316",
+      "actual": "0.316",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 104,
+      "label": "corrected holdout CI hi",
+      "claimed": "0.538",
+      "actual": "0.538",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 105,
+      "label": "corrected holdout LOO lo",
+      "claimed": "0.403",
+      "actual": "0.403",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 106,
+      "label": "corrected holdout LOO hi",
+      "claimed": "0.446",
+      "actual": "0.446",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 107,
+      "label": "corrected holdout n_matches",
+      "claimed": "51",
+      "actual": "51",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 108,
+      "label": "corrected holdout n_events",
+      "claimed": "125",
+      "actual": "125",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 109,
+      "label": "corrected holdout n_pos",
+      "claimed": "45",
+      "actual": "45",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 110,
+      "label": "corrected dev D",
+      "claimed": "0.664",
+      "actual": "0.664",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 111,
+      "label": "corrected dev CI lo",
+      "claimed": "0.502",
+      "actual": "0.502",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 112,
+      "label": "corrected dev CI hi",
+      "claimed": "0.837",
+      "actual": "0.837",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 113,
+      "label": "corrected dev LOO lo",
+      "claimed": "0.626",
+      "actual": "0.626",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 114,
+      "label": "corrected dev LOO hi",
+      "claimed": "0.695",
+      "actual": "0.695",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 115,
+      "label": "corrected dev n_pos",
+      "claimed": "37",
+      "actual": "37",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 116,
+      "label": "corrected holdout all-goals D",
+      "claimed": "0.461",
+      "actual": "0.461",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 117,
+      "label": "corrected dev all-goals D",
+      "claimed": "0.655",
+      "actual": "0.655",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 118,
+      "label": "corrected shrinkage %",
+      "claimed": "36.0",
+      "actual": "35.9",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 122,
+      "label": "registered minus corrected",
+      "claimed": "0.011",
+      "actual": "0.011",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": 124,
+      "label": "gap as a share of the CI width",
+      "claimed": "0.05",
+      "actual": "0.05",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "corrected_specification.json",
+          "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "corrected keeps the registered sample",
+      "claimed": "125/51",
+      "actual": "125/51",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 144,
+      "label": "funnel source goals",
+      "claimed": "300",
+      "actual": "300",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 146,
+      "label": "funnel dev goals",
+      "claimed": "135",
+      "actual": "135",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 147,
+      "label": "funnel holdout goals",
+      "claimed": "165",
+      "actual": "165",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 148,
+      "label": "funnel outside capture",
+      "claimed": "9",
+      "actual": "9",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 150,
+      "label": "funnel in capture window",
+      "claimed": "291",
+      "actual": "291",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 152,
+      "label": "funnel event eligibility",
+      "claimed": "35",
+      "actual": "35",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 154,
+      "label": "funnel eligible events",
+      "claimed": "256",
+      "actual": "256",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 155,
+      "label": "funnel missing window data",
+      "claimed": "1",
+      "actual": "1",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 157,
+      "label": "funnel events with data",
+      "claimed": "255",
+      "actual": "255",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 159,
+      "label": "funnel isolation",
+      "claimed": "32",
+      "actual": "32",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 160,
+      "label": "funnel analysed",
+      "claimed": "223",
+      "actual": "223",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": 161,
+      "label": "funnel matches contributing",
+      "claimed": "90",
+      "actual": "90",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_funnel.json",
+          "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "funnel arithmetic dev",
+      "claimed": "98",
+      "actual": "98",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "funnel arithmetic holdout",
+      "claimed": "125",
+      "actual": "125",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "funnel reconciles with the engine",
+      "claimed": "terminal counts agree with event_study_<cohort>.",
+      "actual": "agrees",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 184,
+      "label": "thr certified pre",
+      "claimed": "53.6",
+      "actual": "53.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 185,
+      "label": "thr certified post",
+      "claimed": "86.4",
+      "actual": "86.4",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 184,
+      "label": "thr 0.10c pre",
+      "claimed": "29.6",
+      "actual": "29.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 185,
+      "label": "thr 0.10c post",
+      "claimed": "74.4",
+      "actual": "74.4",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 184,
+      "label": "thr 0.25c pre",
+      "claimed": "12.8",
+      "actual": "12.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 185,
+      "label": "thr 0.25c post",
+      "claimed": "59.2",
+      "actual": "59.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 184,
+      "label": "thr 0.50c pre",
+      "claimed": "4.8",
+      "actual": "4.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 185,
+      "label": "thr 0.50c post",
+      "claimed": "43.2",
+      "actual": "43.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 184,
+      "label": "thr 1.00c pre",
+      "claimed": "2.4",
+      "actual": "2.4",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 185,
+      "label": "thr 1.00c post",
+      "claimed": "19.2",
+      "actual": "19.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "threshold_ccdf.json",
+          "sha256": null
+        },
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 192,
+      "label": "dev null max",
+      "claimed": "0.0952",
+      "actual": "0.0952",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "randomization_null.json",
+          "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+        },
+        {
+          "artifact": "randomization_test.json",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "line": 194,
+      "label": "dev obs/nullmax",
+      "claimed": "7.0",
+      "actual": "7.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "randomization_null.json",
+          "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+        },
+        {
+          "artifact": "randomization_test.json",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "line": 195,
+      "label": "dev n_exceed",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "randomization_null.json",
+          "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+        },
+        {
+          "artifact": "randomization_test.json",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "line": 196,
+      "label": "dev p",
+      "claimed": "0.00020",
+      "actual": "0.00020",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "randomization_null.json",
+          "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+        },
+        {
+          "artifact": "randomization_test.json",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "line": 192,
+      "label": "holdout null max",
+      "claimed": "0.1338",
+      "actual": "0.1338",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "randomization_null.json",
+          "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+        },
+        {
+          "artifact": "randomization_test.json",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "line": 194,
+      "label": "holdout obs/nullmax",
+      "claimed": "3.3",
+      "actual": "3.3",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "randomization_null.json",
+          "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+        },
+        {
+          "artifact": "randomization_test.json",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "line": 195,
+      "label": "holdout n_exceed",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "randomization_null.json",
+          "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+        },
+        {
+          "artifact": "randomization_test.json",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "line": 196,
+      "label": "holdout p",
+      "claimed": "0.00020",
+      "actual": "0.00020",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "randomization_null.json",
+          "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+        },
+        {
+          "artifact": "randomization_test.json",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "line": 205,
+      "label": "control halftime D",
+      "claimed": "-0.003",
+      "actual": "-0.003",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 206,
+      "label": "control halftime n",
+      "claimed": "50",
+      "actual": "50",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 205,
+      "label": "control start_2nd_half D",
+      "claimed": "-0.009",
+      "actual": "-0.009",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 206,
+      "label": "control start_2nd_half n",
+      "claimed": "47",
+      "actual": "47",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 205,
+      "label": "control substitution D",
+      "claimed": "-0.013",
+      "actual": "-0.013",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 206,
+      "label": "control substitution n",
+      "claimed": "88",
+      "actual": "88",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 205,
+      "label": "control yellow_card D",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 206,
+      "label": "control yellow_card n",
+      "claimed": "74",
+      "actual": "74",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 205,
+      "label": "control delay D",
+      "claimed": "0.014",
+      "actual": "0.014",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 206,
+      "label": "control delay n",
+      "claimed": "146",
+      "actual": "146",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 205,
+      "label": "control red_card D",
+      "claimed": "0.100",
+      "actual": "0.100",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 206,
+      "label": "control red_card n",
+      "claimed": "7",
+      "actual": "7",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 211,
+      "label": "control halftime CI-hi as % of goal",
+      "claimed": "3.1",
+      "actual": "3.1",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 211,
+      "label": "control start_2nd_half CI-hi as % of goal",
+      "claimed": "1.2",
+      "actual": "1.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 211,
+      "label": "control substitution CI-hi as % of goal",
+      "claimed": "0.8",
+      "actual": "0.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 211,
+      "label": "control yellow_card CI-hi as % of goal",
+      "claimed": "6.8",
+      "actual": "6.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 211,
+      "label": "control delay CI-hi as % of goal",
+      "claimed": "11.3",
+      "actual": "11.3",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "placebo_suite.json",
+          "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+        }
+      ]
+    },
+    {
+      "line": 222,
+      "label": "spec cells total",
+      "claimed": "1200",
+      "actual": "1200",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "spec_curve_v3.json",
+          "sha256": "aed34c99ace38d1d4f71963cf30b55994ddccc6bb1daa4a09b20aa11ed5b8732"
+        }
+      ]
+    },
+    {
+      "line": 223,
+      "label": "spec cells significant",
+      "claimed": "1200",
+      "actual": "1200",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "spec_curve_v3.json",
+          "sha256": "aed34c99ace38d1d4f71963cf30b55994ddccc6bb1daa4a09b20aa11ed5b8732"
+        }
+      ]
+    },
+    {
+      "line": 226,
+      "label": "spec holdout min",
+      "claimed": "0.224",
+      "actual": "0.224",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "spec_curve_v3.json",
+          "sha256": "aed34c99ace38d1d4f71963cf30b55994ddccc6bb1daa4a09b20aa11ed5b8732"
+        }
+      ]
+    },
+    {
+      "line": 227,
+      "label": "spec holdout max",
+      "claimed": "0.562",
+      "actual": "0.562",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "spec_curve_v3.json",
+          "sha256": "aed34c99ace38d1d4f71963cf30b55994ddccc6bb1daa4a09b20aa11ed5b8732"
+        }
+      ]
+    },
+    {
+      "line": 228,
+      "label": "spec holdout median",
+      "claimed": "0.408",
+      "actual": "0.408",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "spec_curve_v3.json",
+          "sha256": "aed34c99ace38d1d4f71963cf30b55994ddccc6bb1daa4a09b20aa11ed5b8732"
+        }
+      ]
+    },
+    {
+      "line": 231,
+      "label": "spec primary percentile",
+      "claimed": "68",
+      "actual": "68",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "spec_curve_v3.json",
+          "sha256": "aed34c99ace38d1d4f71963cf30b55994ddccc6bb1daa4a09b20aa11ed5b8732"
+        }
+      ]
+    },
+    {
+      "line": 240,
+      "label": "LOFO exact-score",
+      "claimed": "18.0",
+      "actual": "18.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 243,
+      "label": "rand exact-score mean",
+      "claimed": "25.8",
+      "actual": "25.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 244,
+      "label": "rand exact-score lo",
+      "claimed": "19",
+      "actual": "19",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 245,
+      "label": "rand exact-score hi",
+      "claimed": "32",
+      "actual": "32",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 240,
+      "label": "LOFO total-goals",
+      "claimed": "70.4",
+      "actual": "70.4",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 243,
+      "label": "rand total-goals mean",
+      "claimed": "62.9",
+      "actual": "62.9",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 244,
+      "label": "rand total-goals lo",
+      "claimed": "56",
+      "actual": "56",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 245,
+      "label": "rand total-goals hi",
+      "claimed": "73",
+      "actual": "73",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 240,
+      "label": "LOFO team-total",
+      "claimed": "67.0",
+      "actual": "67.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 243,
+      "label": "rand team-total mean",
+      "claimed": "71.1",
+      "actual": "71.1",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 244,
+      "label": "rand team-total lo",
+      "claimed": "61",
+      "actual": "61",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 245,
+      "label": "rand team-total hi",
+      "claimed": "79",
+      "actual": "79",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 240,
+      "label": "LOFO spread",
+      "claimed": "74.6",
+      "actual": "74.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 243,
+      "label": "rand spread mean",
+      "claimed": "63.1",
+      "actual": "63.1",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 244,
+      "label": "rand spread lo",
+      "claimed": "60",
+      "actual": "60",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 245,
+      "label": "rand spread hi",
+      "claimed": "71",
+      "actual": "71",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 240,
+      "label": "LOFO moneyline",
+      "claimed": "91.3",
+      "actual": "91.3",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 243,
+      "label": "rand moneyline mean",
+      "claimed": "88.4",
+      "actual": "88.4",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 244,
+      "label": "rand moneyline lo",
+      "claimed": "80",
+      "actual": "80",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 245,
+      "label": "rand moneyline hi",
+      "claimed": "93",
+      "actual": "93",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 240,
+      "label": "LOFO btts",
+      "claimed": "92.9",
+      "actual": "92.9",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 243,
+      "label": "rand btts mean",
+      "claimed": "95.8",
+      "actual": "95.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 244,
+      "label": "rand btts lo",
+      "claimed": "92",
+      "actual": "92",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 245,
+      "label": "rand btts hi",
+      "claimed": "98",
+      "actual": "98",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 251,
+      "label": "dual delta exact-score",
+      "claimed": "-0.082",
+      "actual": "-0.082",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 251,
+      "label": "dual delta moneyline",
+      "claimed": "-0.023",
+      "actual": "-0.023",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 251,
+      "label": "dual delta team-total",
+      "claimed": "0.044",
+      "actual": "0.044",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 251,
+      "label": "dual delta spread",
+      "claimed": "0.032",
+      "actual": "0.032",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 251,
+      "label": "dual delta btts",
+      "claimed": "0.015",
+      "actual": "0.015",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 251,
+      "label": "dual delta total-goals",
+      "claimed": "0.014",
+      "actual": "0.014",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "family_attribution_v2_holdout.json",
+          "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+        }
+      ]
+    },
+    {
+      "line": 262,
+      "label": "matched unmatched observed",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "matched_placebo.json",
+          "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+        }
+      ]
+    },
+    {
+      "line": 263,
+      "label": "matched unmatched null max",
+      "claimed": "0.095",
+      "actual": "0.095",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "matched_placebo.json",
+          "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+        }
+      ]
+    },
+    {
+      "line": 262,
+      "label": "matched time+score observed",
+      "claimed": "0.451",
+      "actual": "0.451",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "matched_placebo.json",
+          "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+        }
+      ]
+    },
+    {
+      "line": 263,
+      "label": "matched time+score null max",
+      "claimed": "0.070",
+      "actual": "0.070",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "matched_placebo.json",
+          "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+        }
+      ]
+    },
+    {
+      "line": 262,
+      "label": "matched full observed",
+      "claimed": "0.527",
+      "actual": "0.527",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "matched_placebo.json",
+          "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+        }
+      ]
+    },
+    {
+      "line": 263,
+      "label": "matched full null max",
+      "claimed": "0.072",
+      "actual": "0.072",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "matched_placebo.json",
+          "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+        }
+      ]
+    },
+    {
+      "line": 264,
+      "label": "matched time+score goals",
+      "claimed": "113",
+      "actual": "113",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "matched_placebo.json",
+          "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+        }
+      ]
+    },
+    {
+      "line": 267,
+      "label": "matched full goals",
+      "claimed": "104",
+      "actual": "104",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "matched_placebo.json",
+          "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+        }
+      ]
+    },
+    {
+      "line": 279,
+      "label": "anchor holdout +/-2s retained",
+      "claimed": "98.6",
+      "actual": "98.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "anchor_precision.json",
+          "sha256": "dbcbe30d4f255e95d2a60ddefc295ddaafe50e20289512eaf9832671ae8f0cf9"
+        }
+      ]
+    },
+    {
+      "line": 279,
+      "label": "anchor holdout +/-5s retained",
+      "claimed": "97.8",
+      "actual": "97.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "anchor_precision.json",
+          "sha256": "dbcbe30d4f255e95d2a60ddefc295ddaafe50e20289512eaf9832671ae8f0cf9"
+        }
+      ]
+    },
+    {
+      "line": 279,
+      "label": "anchor holdout +/-30s retained",
+      "claimed": "75.8",
+      "actual": "75.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "anchor_precision.json",
+          "sha256": "dbcbe30d4f255e95d2a60ddefc295ddaafe50e20289512eaf9832671ae8f0cf9"
+        }
+      ]
+    },
+    {
+      "line": 279,
+      "label": "anchor holdout +/-60s retained",
+      "claimed": "28.2",
+      "actual": "28.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "anchor_precision.json",
+          "sha256": "dbcbe30d4f255e95d2a60ddefc295ddaafe50e20289512eaf9832671ae8f0cf9"
+        }
+      ]
+    },
+    {
+      "line": 279,
+      "label": "anchor dev +/-5s retained",
+      "claimed": "96.2",
+      "actual": "96.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "anchor_precision.json",
+          "sha256": "dbcbe30d4f255e95d2a60ddefc295ddaafe50e20289512eaf9832671ae8f0cf9"
+        }
+      ]
+    },
+    {
+      "line": 279,
+      "label": "anchor dev +/-30s retained",
+      "claimed": "61.6",
+      "actual": "61.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "anchor_precision.json",
+          "sha256": "dbcbe30d4f255e95d2a60ddefc295ddaafe50e20289512eaf9832671ae8f0cf9"
+        }
+      ]
+    },
+    {
+      "line": 286,
+      "label": "crossed dev pre",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "crossed_interval_qc_dev.json",
+          "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+        },
+        {
+          "artifact": "crossed_interval_qc_holdout.json",
+          "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+        }
+      ]
+    },
+    {
+      "line": 287,
+      "label": "crossed dev post",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "crossed_interval_qc_dev.json",
+          "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+        },
+        {
+          "artifact": "crossed_interval_qc_holdout.json",
+          "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+        }
+      ]
+    },
+    {
+      "line": 288,
+      "label": "crossed dev contracts",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "crossed_interval_qc_dev.json",
+          "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+        },
+        {
+          "artifact": "crossed_interval_qc_holdout.json",
+          "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+        }
+      ]
+    },
+    {
+      "line": 289,
+      "label": "crossed dev evaluations",
+      "claimed": "67750",
+      "actual": "67750",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "crossed_interval_qc_dev.json",
+          "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+        },
+        {
+          "artifact": "crossed_interval_qc_holdout.json",
+          "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+        }
+      ]
+    },
+    {
+      "line": 286,
+      "label": "crossed holdout pre",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "crossed_interval_qc_dev.json",
+          "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+        },
+        {
+          "artifact": "crossed_interval_qc_holdout.json",
+          "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+        }
+      ]
+    },
+    {
+      "line": 287,
+      "label": "crossed holdout post",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "crossed_interval_qc_dev.json",
+          "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+        },
+        {
+          "artifact": "crossed_interval_qc_holdout.json",
+          "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+        }
+      ]
+    },
+    {
+      "line": 288,
+      "label": "crossed holdout contracts",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "crossed_interval_qc_dev.json",
+          "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+        },
+        {
+          "artifact": "crossed_interval_qc_holdout.json",
+          "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+        }
+      ]
+    },
+    {
+      "line": 289,
+      "label": "crossed holdout evaluations",
+      "claimed": "89681",
+      "actual": "89681",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "crossed_interval_qc_dev.json",
+          "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+        },
+        {
+          "artifact": "crossed_interval_qc_holdout.json",
+          "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+        }
+      ]
+    },
+    {
+      "line": 294,
+      "label": "saturation ok",
+      "claimed": "104",
+      "actual": "104",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "saturation_lemma.json",
+          "sha256": "3386c1e0003d3aaae81261ee9e6a2b4161877509a78cb0e1a392965a35ef8ffe"
+        }
+      ]
+    },
+    {
+      "line": 295,
+      "label": "saturation fail",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "saturation_lemma.json",
+          "sha256": "3386c1e0003d3aaae81261ee9e6a2b4161877509a78cb0e1a392965a35ef8ffe"
+        }
+      ]
+    },
+    {
+      "line": 296,
+      "label": "saturation required CAP",
+      "claimed": "10",
+      "actual": "10",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "saturation_lemma.json",
+          "sha256": "3386c1e0003d3aaae81261ee9e6a2b4161877509a78cb0e1a392965a35ef8ffe"
+        }
+      ]
+    },
+    {
+      "line": 297,
+      "label": "saturation CAP",
+      "claimed": "15",
+      "actual": "15",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "saturation_lemma.json",
+          "sha256": "3386c1e0003d3aaae81261ee9e6a2b4161877509a78cb0e1a392965a35ef8ffe"
+        }
+      ]
+    },
+    {
+      "line": 303,
+      "label": "lottery registered holdout",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "split_lottery.json",
+          "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+        }
+      ]
+    },
+    {
+      "line": 304,
+      "label": "lottery null mean",
+      "claimed": "0.537",
+      "actual": "0.537",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "split_lottery.json",
+          "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+        }
+      ]
+    },
+    {
+      "line": 305,
+      "label": "lottery null sd",
+      "claimed": "0.050",
+      "actual": "0.050",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "split_lottery.json",
+          "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+        }
+      ]
+    },
+    {
+      "line": 306,
+      "label": "lottery percentile",
+      "claimed": "2.2",
+      "actual": "2.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "split_lottery.json",
+          "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+        }
+      ]
+    },
+    {
+      "line": 307,
+      "label": "lottery pct higher",
+      "claimed": "97.8",
+      "actual": "97.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "split_lottery.json",
+          "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+        }
+      ]
+    },
+    {
+      "line": 308,
+      "label": "lottery pct positive",
+      "claimed": "100.0",
+      "actual": "100.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "split_lottery.json",
+          "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+        }
+      ]
+    },
+    {
+      "line": 309,
+      "label": "lottery min draw",
+      "claimed": "0.329",
+      "actual": "0.329",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "split_lottery.json",
+          "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+        }
+      ]
+    },
+    {
+      "line": 310,
+      "label": "lottery draws",
+      "claimed": "20000",
+      "actual": "20000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "split_lottery.json",
+          "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "lottery scope metadata",
+      "claimed": "post-holdout label sensitivity conditional on frozen estimand",
+      "actual": "conditional",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "lottery does not retune",
+      "claimed": "False",
+      "actual": "False",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 324,
+      "label": "census holdout median",
+      "claimed": "46",
+      "actual": "46",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 325,
+      "label": "census holdout q1",
+      "claimed": "45",
+      "actual": "45",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 326,
+      "label": "census holdout q3",
+      "claimed": "46",
+      "actual": "46",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 327,
+      "label": "census holdout min",
+      "claimed": "37",
+      "actual": "37",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 324,
+      "label": "census dev median",
+      "claimed": "46",
+      "actual": "46",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 325,
+      "label": "census dev q1",
+      "claimed": "40",
+      "actual": "40",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 326,
+      "label": "census dev q3",
+      "claimed": "46",
+      "actual": "46",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 327,
+      "label": "census dev min",
+      "claimed": "20",
+      "actual": "20",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 328,
+      "label": "census dev pct>=30",
+      "claimed": "96.8",
+      "actual": "96.8",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 329,
+      "label": "census holdout pct>=30",
+      "claimed": "100.0",
+      "actual": "100.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "availability_census.json",
+          "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+        }
+      ]
+    },
+    {
+      "line": 338,
+      "label": "subsystem full = engine",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 339,
+      "label": "subsystem full dev = engine",
+      "claimed": "0.667",
+      "actual": "0.667",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 345,
+      "label": "subsys full holdout D",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 346,
+      "label": "subsys full holdout CI lo",
+      "claimed": "0.320",
+      "actual": "0.320",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 347,
+      "label": "subsys full holdout CI hi",
+      "claimed": "0.557",
+      "actual": "0.557",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 348,
+      "label": "subsys full dev D",
+      "claimed": "0.667",
+      "actual": "0.667",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 345,
+      "label": "subsys no-exact-score holdout D",
+      "claimed": "0.079",
+      "actual": "0.079",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 346,
+      "label": "subsys no-exact-score holdout CI lo",
+      "claimed": "0.040",
+      "actual": "0.040",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 347,
+      "label": "subsys no-exact-score holdout CI hi",
+      "claimed": "0.121",
+      "actual": "0.121",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 348,
+      "label": "subsys no-exact-score dev D",
+      "claimed": "0.085",
+      "actual": "0.085",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 345,
+      "label": "subsys moneyline holdout D",
+      "claimed": "0.008",
+      "actual": "0.008",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 346,
+      "label": "subsys moneyline holdout CI lo",
+      "claimed": "0.001",
+      "actual": "0.001",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 347,
+      "label": "subsys moneyline holdout CI hi",
+      "claimed": "0.017",
+      "actual": "0.017",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 348,
+      "label": "subsys moneyline dev D",
+      "claimed": "-0.004",
+      "actual": "-0.004",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 345,
+      "label": "subsys exact-score holdout D",
+      "claimed": "-0.000",
+      "actual": "-0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 346,
+      "label": "subsys exact-score holdout CI lo",
+      "claimed": "-0.003",
+      "actual": "-0.003",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 347,
+      "label": "subsys exact-score holdout CI hi",
+      "claimed": "0.002",
+      "actual": "0.002",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 348,
+      "label": "subsys exact-score dev D",
+      "claimed": "0.009",
+      "actual": "0.009",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 349,
+      "label": "subsys no-exact-score n_pos",
+      "claimed": "30",
+      "actual": "30",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": 352,
+      "label": "largest subsystem share of full",
+      "claimed": "18.1",
+      "actual": "18.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "subsystem_availability_holdout.json",
+          "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+        },
+        {
+          "artifact": "subsystem_availability_dev.json",
+          "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "tick subsystem metadata holdout",
+      "claimed": "no-exact-score",
+      "actual": "no-exact-score",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 363,
+      "label": "tick subsystem baseline holdout",
+      "claimed": "0.079",
+      "actual": "0.079",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 365,
+      "label": "tick subsystem nearest D holdout",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 367,
+      "label": "tick subsystem mismatch holdout",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 369,
+      "label": "tick subsystem fallback holdout",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "tick subsystem metadata dev",
+      "claimed": "no-exact-score",
+      "actual": "no-exact-score",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 363,
+      "label": "tick subsystem baseline dev",
+      "claimed": "0.085",
+      "actual": "0.085",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 365,
+      "label": "tick subsystem nearest D dev",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 367,
+      "label": "tick subsystem mismatch dev",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 369,
+      "label": "tick subsystem fallback dev",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 384,
+      "label": "tick subsystem inward holdout D",
+      "claimed": "-0.017",
+      "actual": "-0.017",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 384,
+      "label": "tick subsystem inward holdout CI lo",
+      "claimed": "-0.031",
+      "actual": "-0.031",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 384,
+      "label": "tick subsystem inward holdout CI hi",
+      "claimed": "-0.004",
+      "actual": "-0.004",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 384,
+      "label": "tick subsystem inward dev D",
+      "claimed": "-0.016",
+      "actual": "-0.016",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 384,
+      "label": "tick subsystem inward dev CI lo",
+      "claimed": "-0.032",
+      "actual": "-0.032",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": 384,
+      "label": "tick subsystem inward dev CI hi",
+      "claimed": "-0.003",
+      "actual": "-0.003",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_no_exact_score_holdout.json",
+          "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+        },
+        {
+          "artifact": "tick_null_no_exact_score_dev.json",
+          "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "tick subsystem active ticks holdout",
+      "claimed": "['0.001', '0.0025', '0.01']",
+      "actual": "['0.001', '0.0025', '0.01']",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "tick subsystem active ticks dev",
+      "claimed": "['0.001', '0.0025', '0.01']",
+      "actual": "['0.001', '0.0025', '0.01']",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 399,
+      "label": "freshness base = engine",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 400,
+      "label": "freshness base dev = engine",
+      "claimed": "0.667",
+      "actual": "0.667",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 404,
+      "label": "freshness fresh10 D",
+      "claimed": "0.435",
+      "actual": "0.435",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 405,
+      "label": "freshness fresh10 CI lo",
+      "claimed": "0.319",
+      "actual": "0.319",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 406,
+      "label": "freshness fresh10 CI hi",
+      "claimed": "0.559",
+      "actual": "0.559",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 404,
+      "label": "freshness no-straddle D",
+      "claimed": "0.458",
+      "actual": "0.458",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 405,
+      "label": "freshness no-straddle CI lo",
+      "claimed": "0.341",
+      "actual": "0.341",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 406,
+      "label": "freshness no-straddle CI hi",
+      "claimed": "0.581",
+      "actual": "0.581",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 404,
+      "label": "freshness no-straddle+fresh10 D",
+      "claimed": "0.458",
+      "actual": "0.458",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 405,
+      "label": "freshness no-straddle+fresh10 CI lo",
+      "claimed": "0.343",
+      "actual": "0.343",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 406,
+      "label": "freshness no-straddle+fresh10 CI hi",
+      "claimed": "0.582",
+      "actual": "0.582",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 407,
+      "label": "freshness no-straddle n_pos",
+      "claimed": "45",
+      "actual": "45",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 408,
+      "label": "freshness dev fresh10",
+      "claimed": "0.666",
+      "actual": "0.666",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 409,
+      "label": "freshness dev no-straddle",
+      "claimed": "0.666",
+      "actual": "0.666",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 412,
+      "label": "retain holdout fresh10",
+      "claimed": "99.6",
+      "actual": "99.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 413,
+      "label": "retain holdout no-straddle",
+      "claimed": "95.7",
+      "actual": "95.7",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 415,
+      "label": "retain holdout both",
+      "claimed": "95.5",
+      "actual": "95.5",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": 417,
+      "label": "retain dev no-straddle",
+      "claimed": "96.1",
+      "actual": "96.1",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_straddle_holdout.json",
+          "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+        },
+        {
+          "artifact": "freshness_straddle_dev.json",
+          "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "no freshness variant lowers holdout",
+      "claimed": "not lower",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "no freshness variant lowers dev",
+      "claimed": "not lower",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 438,
+      "label": "compiled slugs",
+      "claimed": "4573",
+      "actual": "4573",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "fail_closed_breakdown.json",
+          "sha256": "74c326a6cb40560159fe47b53159cc5794a89a8516b324a61bd5d93b0b16b470"
+        }
+      ]
+    },
+    {
+      "line": 439,
+      "label": "half-time exclusions",
+      "claimed": "2882",
+      "actual": "2882",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "fail_closed_breakdown.json",
+          "sha256": "74c326a6cb40560159fe47b53159cc5794a89a8516b324a61bd5d93b0b16b470"
+        }
+      ]
+    },
+    {
+      "line": 441,
+      "label": "unsupported templates",
+      "claimed": "28697",
+      "actual": "28697",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "fail_closed_breakdown.json",
+          "sha256": "74c326a6cb40560159fe47b53159cc5794a89a8516b324a61bd5d93b0b16b470"
+        }
+      ]
+    },
+    {
+      "line": 442,
+      "label": "distinct unsupported shapes",
+      "claimed": "3252",
+      "actual": "3252",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "fail_closed_breakdown.json",
+          "sha256": "74c326a6cb40560159fe47b53159cc5794a89a8516b324a61bd5d93b0b16b470"
+        }
+      ]
+    },
+    {
+      "line": 443,
+      "label": "compiled slugs = settlement checks",
+      "claimed": "4573",
+      "actual": "4573",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "fail_closed_breakdown.json",
+          "sha256": "74c326a6cb40560159fe47b53159cc5794a89a8516b324a61bd5d93b0b16b470"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "first-to-score-neither is recorded as dropped",
+      "claimed": "present",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 454,
+      "label": "first-to-score-neither dropped count",
+      "claimed": "103",
+      "actual": "103",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "fail_closed_breakdown.json",
+          "sha256": "74c326a6cb40560159fe47b53159cc5794a89a8516b324a61bd5d93b0b16b470"
+        }
+      ]
+    },
+    {
+      "line": 467,
+      "label": "ftsn holdout D",
+      "claimed": "0.445",
+      "actual": "0.445",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": 468,
+      "label": "ftsn holdout CI lo",
+      "claimed": "0.331",
+      "actual": "0.331",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": 469,
+      "label": "ftsn holdout CI hi",
+      "claimed": "0.564",
+      "actual": "0.564",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": 470,
+      "label": "ftsn holdout n_pos",
+      "claimed": "45",
+      "actual": "45",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "ftsn holdout raises the estimate, as the lemma requires",
+      "claimed": "0.4446c",
+      "actual": ">0.436c",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 467,
+      "label": "ftsn dev D",
+      "claimed": "0.678",
+      "actual": "0.678",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": 468,
+      "label": "ftsn dev CI lo",
+      "claimed": "0.515",
+      "actual": "0.515",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": 469,
+      "label": "ftsn dev CI hi",
+      "claimed": "0.850",
+      "actual": "0.850",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": 470,
+      "label": "ftsn dev n_pos",
+      "claimed": "37",
+      "actual": "37",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "ftsn dev raises the estimate, as the lemma requires",
+      "claimed": "0.6779c",
+      "actual": ">0.667c",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 474,
+      "label": "ftsn holdout events unchanged",
+      "claimed": "125",
+      "actual": "125",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": 475,
+      "label": "ftsn dev events unchanged",
+      "claimed": "98",
+      "actual": "98",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "first_to_score_neither.json",
+          "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+        }
+      ]
+    },
+    {
+      "line": 483,
+      "label": "descriptions checked",
+      "claimed": "4573",
+      "actual": "4573",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "description_validation.json",
+          "sha256": "3d7ae4a1d489536e70efd622fd47bafe412d0e87be911acdff85c0cdba733023"
+        }
+      ]
+    },
+    {
+      "line": 484,
+      "label": "descriptions agreeing",
+      "claimed": "4544",
+      "actual": "4544",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "description_validation.json",
+          "sha256": "3d7ae4a1d489536e70efd622fd47bafe412d0e87be911acdff85c0cdba733023"
+        }
+      ]
+    },
+    {
+      "line": 485,
+      "label": "description name variants",
+      "claimed": "29",
+      "actual": "29",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "description_validation.json",
+          "sha256": "3d7ae4a1d489536e70efd622fd47bafe412d0e87be911acdff85c0cdba733023"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "no description disagrees with its compiled rule",
+      "claimed": "0",
+      "actual": "0 expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 490,
+      "label": "descriptions stating the regulation window",
+      "claimed": "4573",
+      "actual": "4573",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "description_validation.json",
+          "sha256": "3d7ae4a1d489536e70efd622fd47bafe412d0e87be911acdff85c0cdba733023"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "disagreement list is empty",
+      "claimed": "0 listed",
+      "actual": "0 expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 502,
+      "label": "orientation contracts checked",
+      "claimed": "4573",
+      "actual": "4573",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "outcome_orientation.json",
+          "sha256": "a9188584eaca5d2a89e562f21d2f8daef1387721a3502db08119b512b267fc66"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "no canonical leg is mislabelled",
+      "claimed": "0",
+      "actual": "0 expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "every compiled contract had its orientation established",
+      "claimed": "4573 of 4573",
+      "actual": "all expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 518,
+      "label": "dropped slugs grouped",
+      "claimed": "28697",
+      "actual": "28697",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "system_composition.json",
+          "sha256": "745e0b989615c2a6be805e8184b5976a75bca822b70f0dd9663f5110c9219579"
+        }
+      ]
+    },
+    {
+      "line": 520,
+      "label": "player and shot prop share",
+      "claimed": "93%",
+      "actual": "93%",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "system_composition.json",
+          "sha256": "745e0b989615c2a6be805e8184b5976a75bca822b70f0dd9663f5110c9219579"
+        }
+      ]
+    },
+    {
+      "line": 521,
+      "label": "corner share",
+      "claimed": "6%",
+      "actual": "6%",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "system_composition.json",
+          "sha256": "745e0b989615c2a6be805e8184b5976a75bca822b70f0dd9663f5110c9219579"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "every unsupported shape falls in a named group",
+      "claimed": "0 ungrouped",
+      "actual": "0 expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 541,
+      "label": "holdout return to baseline",
+      "claimed": "95s",
+      "actual": "95s",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_time_profiles.json",
+          "sha256": "4355f546ce210a70ce54566f3d765a900a71d6a0c550691bbf25cebe61c90c02"
+        }
+      ]
+    },
+    {
+      "line": 541,
+      "label": "dev return to baseline",
+      "claimed": "120s",
+      "actual": "120s",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_time_profiles.json",
+          "sha256": "4355f546ce210a70ce54566f3d765a900a71d6a0c550691bbf25cebe61c90c02"
+        }
+      ]
+    },
+    {
+      "line": 547,
+      "label": "cycle period pairs",
+      "claimed": "1517002",
+      "actual": "1517002",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "cycle_period.json",
+          "sha256": "3aa5bd3e23fd2396c1c4e03d893ffa57e1824be59a94fc64373e7d93e1f9195f"
+        }
+      ]
+    },
+    {
+      "line": 548,
+      "label": "cycle period median",
+      "claimed": "10s",
+      "actual": "10s",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "cycle_period.json",
+          "sha256": "3aa5bd3e23fd2396c1c4e03d893ffa57e1824be59a94fc64373e7d93e1f9195f"
+        }
+      ]
+    },
+    {
+      "line": 549,
+      "label": "cycle period p99",
+      "claimed": "13s",
+      "actual": "13s",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "cycle_period.json",
+          "sha256": "3aa5bd3e23fd2396c1c4e03d893ffa57e1824be59a94fc64373e7d93e1f9195f"
+        }
+      ]
+    },
+    {
+      "line": 550,
+      "label": "cycles within cadence",
+      "claimed": "98.2%",
+      "actual": "98.2%",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "cycle_period.json",
+          "sha256": "3aa5bd3e23fd2396c1c4e03d893ffa57e1824be59a94fc64373e7d93e1f9195f"
+        }
+      ]
+    },
+    {
+      "line": 563,
+      "label": "skew holdout instants",
+      "claimed": "1766",
+      "actual": "1766",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 564,
+      "label": "skew holdout age p99",
+      "claimed": "9.0",
+      "actual": "9.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 565,
+      "label": "skew holdout median",
+      "claimed": "1.0",
+      "actual": "1.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 566,
+      "label": "skew holdout p99",
+      "claimed": "9.0",
+      "actual": "9.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 563,
+      "label": "skew dev instants",
+      "claimed": "1358",
+      "actual": "1358",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 564,
+      "label": "skew dev age p99",
+      "claimed": "8.0",
+      "actual": "8.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 565,
+      "label": "skew dev median",
+      "claimed": "0.0",
+      "actual": "0.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 566,
+      "label": "skew dev p99",
+      "claimed": "9.0",
+      "actual": "9.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "holdout skew p99 below the post-goal window length",
+      "claimed": "9s",
+      "actual": "<24s",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 572,
+      "label": "skew holdout moneyline mean age",
+      "claimed": "0.68",
+      "actual": "0.68",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 573,
+      "label": "skew holdout btts mean age",
+      "claimed": "1.62",
+      "actual": "1.62",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "capture_skew.json",
+          "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+        }
+      ]
+    },
+    {
+      "line": 583,
+      "label": "two-sided base holdout = engine",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 586,
+      "label": "two-sided holdout 30s reproduces base",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 588,
+      "label": "two-sided holdout 30s keeps every match",
+      "claimed": "43",
+      "actual": "43",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 586,
+      "label": "two-sided holdout 15s reproduces base",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 588,
+      "label": "two-sided holdout 15s keeps every match",
+      "claimed": "43",
+      "actual": "43",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "two-sided holdout 10s freshness-only gap under 0.011c",
+      "claimed": "-0.0010c",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 583,
+      "label": "two-sided base dev = engine",
+      "claimed": "0.667",
+      "actual": "0.667",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 586,
+      "label": "two-sided dev 30s reproduces base",
+      "claimed": "0.667",
+      "actual": "0.667",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 588,
+      "label": "two-sided dev 30s keeps every match",
+      "claimed": "37",
+      "actual": "37",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 586,
+      "label": "two-sided dev 15s reproduces base",
+      "claimed": "0.667",
+      "actual": "0.667",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 588,
+      "label": "two-sided dev 15s keeps every match",
+      "claimed": "37",
+      "actual": "37",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "two-sided dev 10s freshness-only gap under 0.011c",
+      "claimed": "-0.0097c",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 595,
+      "label": "two-sided holdout 10s D",
+      "claimed": "0.435",
+      "actual": "0.435",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 596,
+      "label": "two-sided holdout 10s CI lo",
+      "claimed": "0.318",
+      "actual": "0.318",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 597,
+      "label": "two-sided holdout 10s CI hi",
+      "claimed": "0.556",
+      "actual": "0.556",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 598,
+      "label": "two-sided holdout 10s n_pos",
+      "claimed": "43",
+      "actual": "43",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 599,
+      "label": "two-sided holdout 10s events",
+      "claimed": "125",
+      "actual": "125",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 600,
+      "label": "two-sided holdout 10s instants",
+      "claimed": "99.6",
+      "actual": "99.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 603,
+      "label": "two-sided holdout 5s D",
+      "claimed": "0.150",
+      "actual": "0.150",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 604,
+      "label": "two-sided holdout 5s control",
+      "claimed": "0.204",
+      "actual": "0.204",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 605,
+      "label": "two-sided holdout 5s events",
+      "claimed": "28",
+      "actual": "28",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": 606,
+      "label": "two-sided holdout 5s instants",
+      "claimed": "10.0",
+      "actual": "10.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "freshness_twosided_summary.json",
+          "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "5s holdout attenuation is mostly composition",
+      "claimed": "81%",
+      "actual": ">75%",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 622,
+      "label": "size-matched holdout retained",
+      "claimed": "18.0",
+      "actual": "18.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 623,
+      "label": "size-matched holdout random mean",
+      "claimed": "31.1",
+      "actual": "31.1",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 624,
+      "label": "size-matched holdout random sd",
+      "claimed": "6.2",
+      "actual": "6.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 625,
+      "label": "size-matched holdout p5",
+      "claimed": "22.4",
+      "actual": "22.4",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 626,
+      "label": "size-matched holdout p95",
+      "claimed": "41.3",
+      "actual": "41.3",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 627,
+      "label": "size-matched holdout empirical p",
+      "claimed": "0.015",
+      "actual": "0.015",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 628,
+      "label": "size-matched holdout draws",
+      "claimed": "200",
+      "actual": "200",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "size-matched holdout family below random p5",
+      "claimed": "18.0 < 22.4",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 622,
+      "label": "size-matched dev retained",
+      "claimed": "15.1",
+      "actual": "15.1",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 623,
+      "label": "size-matched dev random mean",
+      "claimed": "36.1",
+      "actual": "36.1",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 624,
+      "label": "size-matched dev random sd",
+      "claimed": "6.2",
+      "actual": "6.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 625,
+      "label": "size-matched dev p5",
+      "claimed": "26.6",
+      "actual": "26.6",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 626,
+      "label": "size-matched dev p95",
+      "claimed": "46.3",
+      "actual": "46.3",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 627,
+      "label": "size-matched dev empirical p",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": 628,
+      "label": "size-matched dev draws",
+      "claimed": "200",
+      "actual": "200",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "size_matched_deletion.json",
+          "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "size-matched dev family below random p5",
+      "claimed": "15.1 < 26.6",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 642,
+      "label": "tick obs pre level",
+      "claimed": "0.111",
+      "actual": "0.111",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 643,
+      "label": "tick obs post level",
+      "claimed": "0.550",
+      "actual": "0.550",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 644,
+      "label": "tick nearest pre level",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 645,
+      "label": "tick nearest post level",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 646,
+      "label": "tick narrowest pre level",
+      "claimed": "0.031",
+      "actual": "0.031",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 647,
+      "label": "tick narrowest post level",
+      "claimed": "0.027",
+      "actual": "0.027",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 648,
+      "label": "tick dev narrowest pre level",
+      "claimed": "0.046",
+      "actual": "0.046",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 649,
+      "label": "tick dev narrowest post level",
+      "claimed": "0.034",
+      "actual": "0.034",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 650,
+      "label": "tick dev obs pre level",
+      "claimed": "0.103",
+      "actual": "0.103",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 651,
+      "label": "tick null observed = engine",
+      "claimed": "0.436",
+      "actual": "0.436",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 652,
+      "label": "tick nearest D",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 653,
+      "label": "tick nearest CI lo",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 654,
+      "label": "tick nearest CI hi",
+      "claimed": "0.000",
+      "actual": "0.000",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 655,
+      "label": "tick narrowest D",
+      "claimed": "-0.001",
+      "actual": "-0.001",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 656,
+      "label": "tick narrowest CI lo",
+      "claimed": "-0.013",
+      "actual": "-0.013",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 657,
+      "label": "tick narrowest CI hi",
+      "claimed": "0.011",
+      "actual": "0.011",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 658,
+      "label": "tick dev narrowest D",
+      "claimed": "-0.014",
+      "actual": "-0.014",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "tick counts holdout",
+      "claimed": "{'0.001': 61877, '0.0025': 2192, '0.01': 34264}",
+      "actual": "{'0.001': 61877, '0.0025': 2192, '0.01': 34264}",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 665,
+      "label": "tick mismatch holdout",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 666,
+      "label": "tick fallback holdout",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "tick counts dev",
+      "claimed": "{'0.001': 45392, '0.0025': 3802, '0.01': 25278}",
+      "actual": "{'0.001': 45392, '0.0025': 3802, '0.01': 25278}",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 665,
+      "label": "tick mismatch dev",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": 666,
+      "label": "tick fallback dev",
+      "claimed": "0",
+      "actual": "0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "tick_null_holdout.json",
+          "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+        },
+        {
+          "artifact": "tick_null_dev.json",
+          "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+        }
+      ]
+    },
+    {
+      "line": null,
+      "label": "tick null nearest below observed (holdout)",
+      "claimed": "below",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "tick null narrowest below observed (holdout)",
+      "claimed": "below",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "tick null nearest below observed (dev)",
+      "claimed": "below",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "tick null narrowest below observed (dev)",
+      "claimed": "below",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": null,
+      "label": "dev inward null significantly negative",
+      "claimed": "neg",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    },
+    {
+      "line": 680,
+      "label": "holdout SE of the mean",
+      "claimed": "0.061",
+      "actual": "0.060",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 681,
+      "label": "effect in standard errors",
+      "claimed": "7.0",
+      "actual": "7.2",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 688,
+      "label": "L1 dev L-inf = engine",
+      "claimed": "0.667",
+      "actual": "0.667",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 689,
+      "label": "L1 dev total slack D",
+      "claimed": "4.075",
+      "actual": "4.075",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 690,
+      "label": "L1 dev CI lo",
+      "claimed": "3.069",
+      "actual": "3.069",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 691,
+      "label": "L1 dev CI hi",
+      "claimed": "5.217",
+      "actual": "5.217",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 692,
+      "label": "L1 dev n_pos",
+      "claimed": "37",
+      "actual": "37",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 693,
+      "label": "L1 dev n_matches",
+      "claimed": "39",
+      "actual": "39",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 694,
+      "label": "L1 sign agreement pct",
+      "claimed": "98.0",
+      "actual": "98.0",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 695,
+      "label": "L1 per-goal correlation",
+      "claimed": "0.89",
+      "actual": "0.89",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 696,
+      "label": "L1 n_goals",
+      "claimed": "98",
+      "actual": "98",
+      "passed": true,
+      "sources": [
+        {
+          "artifact": "event_study_holdout.json",
+          "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+        }
+      ]
+    },
+    {
+      "line": 700,
+      "label": "L1 and L-inf agree on matches positive",
+      "claimed": "agree",
+      "actual": "expected",
+      "passed": true,
+      "sources": null
+    }
+  ]
+}

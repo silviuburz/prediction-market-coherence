@@ -1,0 +1,172 @@
+{
+  "params": {
+    "TIME_TOL_s": 600.0,
+    "SLACK_TOL_c": 0.25,
+    "N_RAND": 5000,
+    "SEED": 29,
+    "PRE": [
+      -60,
+      -6
+    ],
+    "POST": [
+      6,
+      30
+    ]
+  },
+  "cohorts": {
+    "dev": {
+      "observed_c": 0.666584882159287,
+      "n_matches": 39,
+      "n_goals": 98,
+      "schemes": {
+        "unmatched": {
+          "goals_used": 98,
+          "goals_dropped": 0,
+          "median_pool": 1008.5,
+          "min_pool": 643,
+          "observed_c": 0.666584882159287,
+          "null_mean_c": -0.0003848320222987128,
+          "null_sd_c": 0.016490340551989634,
+          "null_max_c": 0.09520703590941684,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 7.001424587921193
+        },
+        "time": {
+          "goals_used": 97,
+          "goals_dropped": 1,
+          "median_pool": 119.0,
+          "min_pool": 11,
+          "observed_c": 0.6753979579723629,
+          "null_mean_c": 0.0019745961963295935,
+          "null_sd_c": 0.022458665533971967,
+          "null_max_c": 0.09975153229499555,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 6.770802838145947
+        },
+        "score": {
+          "goals_used": 85,
+          "goals_dropped": 13,
+          "median_pool": 255.0,
+          "min_pool": 4,
+          "observed_c": 0.6771765777551034,
+          "null_mean_c": -0.0015639016696217362,
+          "null_sd_c": 0.018527118410178508,
+          "null_max_c": 0.09674667026205644,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 6.999482007193055
+        },
+        "time+score": {
+          "goals_used": 85,
+          "goals_dropped": 13,
+          "median_pool": 72.0,
+          "min_pool": 4,
+          "observed_c": 0.6771765777551034,
+          "null_mean_c": -0.0025891588383203734,
+          "null_sd_c": 0.0229749858234371,
+          "null_max_c": 0.08886110503210744,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 7.620618464179856
+        },
+        "full": {
+          "goals_used": 79,
+          "goals_dropped": 19,
+          "median_pool": 72.0,
+          "min_pool": 4,
+          "observed_c": 0.7034340966840968,
+          "null_mean_c": 0.023985351672012767,
+          "null_sd_c": 0.025342015970697563,
+          "null_max_c": 0.11194637083429028,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 6.283670398974899
+        }
+      }
+    },
+    "holdout": {
+      "observed_c": 0.4361387491631856,
+      "n_matches": 51,
+      "n_goals": 125,
+      "schemes": {
+        "unmatched": {
+          "goals_used": 125,
+          "goals_dropped": 0,
+          "median_pool": 1007.0,
+          "min_pool": 576,
+          "observed_c": 0.4361387491631856,
+          "null_mean_c": 0.0008626473578345898,
+          "null_sd_c": 0.017139261478320445,
+          "null_max_c": 0.09525021326410235,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 4.5788742535819225
+        },
+        "time": {
+          "goals_used": 125,
+          "goals_dropped": 0,
+          "median_pool": 118.0,
+          "min_pool": 14,
+          "observed_c": 0.4361387491631856,
+          "null_mean_c": 0.0020358582951489636,
+          "null_sd_c": 0.014067500757493164,
+          "null_max_c": 0.06985813536650962,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 6.24320627619089
+        },
+        "score": {
+          "goals_used": 113,
+          "goals_dropped": 12,
+          "median_pool": 219.0,
+          "min_pool": 3,
+          "observed_c": 0.4512525829510391,
+          "null_mean_c": -0.0010955105060250535,
+          "null_sd_c": 0.01719603129133839,
+          "null_max_c": 0.08520920287636383,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 5.295819790801165
+        },
+        "time+score": {
+          "goals_used": 113,
+          "goals_dropped": 12,
+          "median_pool": 72.0,
+          "min_pool": 3,
+          "observed_c": 0.4512525829510391,
+          "null_mean_c": 0.0030740980771736402,
+          "null_sd_c": 0.016521575455535353,
+          "null_max_c": 0.0696114838471866,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 6.482444533744511
+        },
+        "full": {
+          "goals_used": 104,
+          "goals_dropped": 21,
+          "median_pool": 72.0,
+          "min_pool": 3,
+          "observed_c": 0.5271890903165644,
+          "null_mean_c": 0.011934598302476299,
+          "null_sd_c": 0.01381321659300575,
+          "null_max_c": 0.07218001515180356,
+          "n_draws": 5000,
+          "n_exceed": 0,
+          "p": 0.0001999600079984003,
+          "ratio_obs_to_max": 7.3038096377206365
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "n_draw": 20000,
+  "seed": 29,
+  "registered_holdout_c": 0.43613874916318496,
+  "registered_dev_c": 0.666584882159287,
+  "pooled_c": 0.5359987401281626,
+  "null_mean_c": 0.5366672997660449,
+  "null_sd_c": 0.049790292386072105,
+  "percentile_of_registered": 2.19,
+  "pct_random_splits_higher": 97.81,
+  "pct_draws_positive": 100.0,
+  "min_draw_c": 0.32939472147233845,
+  "scope": "post-holdout label sensitivity conditional on frozen estimand",
+  "retunes_analysis_per_split": false
+}

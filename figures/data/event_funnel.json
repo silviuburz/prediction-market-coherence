@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-09-20T07:48:39Z",
+  "purpose": "Event-selection funnel for IEEE Access reviewer 2 comment 6. Stage counts are read from the engine's own match_stats, not recomputed independently.",
+  "criteria": {
+    "capture_each_side_s": 300,
+    "isolation_gap_s": 300
+  },
+  "source_population": {
+    "matches": 104,
+    "regulation_goals": 300
+  },
+  "cohorts": {
+    "dev": {
+      "matches_assigned": 49,
+      "regulation_goals": 135,
+      "matches_processed": 47,
+      "goals_in_capture_window": 127,
+      "dropped_outside_capture_window": 8,
+      "eligible_events": 114,
+      "dropped_by_event_eligibility": 13,
+      "events_with_window_data": 114,
+      "dropped_for_missing_window_data": 0,
+      "isolated_events": 98,
+      "dropped_by_isolation": 16,
+      "matches_contributing_any_event": 39,
+      "matches_contributing_isolated_event": 39
+    },
+    "holdout": {
+      "matches_assigned": 55,
+      "regulation_goals": 165,
+      "matches_processed": 55,
+      "goals_in_capture_window": 164,
+      "dropped_outside_capture_window": 1,
+      "eligible_events": 142,
+      "dropped_by_event_eligibility": 22,
+      "events_with_window_data": 141,
+      "dropped_for_missing_window_data": 1,
+      "isolated_events": 125,
+      "dropped_by_isolation": 16,
+      "matches_contributing_any_event": 51,
+      "matches_contributing_isolated_event": 51
+    }
+  },
+  "crosscheck": "terminal counts agree with event_study_<cohort>.json",
+  "total": {
+    "matches_assigned": 104,
+    "regulation_goals": 300,
+    "matches_processed": 102,
+    "goals_in_capture_window": 291,
+    "dropped_outside_capture_window": 9,
+    "eligible_events": 256,
+    "dropped_by_event_eligibility": 35,
+    "events_with_window_data": 255,
+    "dropped_for_missing_window_data": 1,
+    "isolated_events": 223,
+    "dropped_by_isolation": 32,
+    "matches_contributing_any_event": 90,
+    "matches_contributing_isolated_event": 90
+  }
+}

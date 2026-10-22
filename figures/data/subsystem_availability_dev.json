@@ -1,0 +1,180 @@
+{
+  "cohort": "dev",
+  "generated_at": "2026-07-26T11:35:41.045573+00:00",
+  "params": {
+    "GRID": 5,
+    "PRE_LO": -60,
+    "PRE_HI": -6,
+    "POST_LO": 6,
+    "POST_HI": 30,
+    "WIN": 300,
+    "FRESH": 30.0,
+    "TOL": 0.0001,
+    "ISO_GAP": 300,
+    "PLACEBO_GAP": 240,
+    "N_BOOT": 5000,
+    "N_RAND": 5000,
+    "MIN_AVAIL": 10,
+    "SEED": 29
+  },
+  "min_subsystem_quoted": 3,
+  "census": {
+    "pre": {
+      "n": 1155,
+      "median": 46.0,
+      "iqr": [
+        40.0,
+        46.0
+      ],
+      "min": 20.0,
+      "p05": 37.0,
+      "max": 46.0,
+      "mean": 43.23982683982684
+    },
+    "post": {
+      "n": 567,
+      "median": 46.0,
+      "iqr": [
+        40.0,
+        46.0
+      ],
+      "min": 20.0,
+      "p05": 37.0,
+      "max": 46.0,
+      "mean": 43.26278659611993
+    }
+  },
+  "census_by_family": {
+    "exact-score": {
+      "pre_median": 17.0,
+      "post_median": 17.0,
+      "pre_max": 17.0
+    },
+    "moneyline": {
+      "pre_median": 3.0,
+      "post_median": 3.0,
+      "pre_max": 3.0
+    },
+    "btts": {
+      "pre_median": 1.0,
+      "post_median": 1.0,
+      "pre_max": 1.0
+    },
+    "total-goals": {
+      "pre_median": 9.0,
+      "post_median": 9.0,
+      "pre_max": 10.0
+    },
+    "team-total": {
+      "pre_median": 6.0,
+      "post_median": 6.0,
+      "pre_max": 6.0
+    },
+    "spread": {
+      "pre_median": 10.0,
+      "post_median": 10.0,
+      "pre_max": 10.0
+    }
+  },
+  "subsystems": {
+    "full": {
+      "D": 0.00666584882159287,
+      "ci": [
+        0.005010181466944059,
+        0.00832880207555158
+      ],
+      "n_matches": 39,
+      "n_events": 98,
+      "n_pos": 37
+    },
+    "moneyline": {
+      "D": -4.3251039084372176e-05,
+      "ci": [
+        -0.00013132206528039856,
+        3.217112362945627e-05
+      ],
+      "n_matches": 39,
+      "n_events": 98,
+      "n_pos": 10
+    },
+    "moneyline+total-goals": {
+      "D": -4.396328979662258e-05,
+      "ci": [
+        -0.0001308607519024182,
+        2.7718550739384166e-05
+      ],
+      "n_matches": 39,
+      "n_events": 98,
+      "n_pos": 10
+    },
+    "no-exact-score": {
+      "D": 0.0008497028948417839,
+      "ci": [
+        3.339082149845989e-05,
+        0.0017738418654390884
+      ],
+      "n_matches": 39,
+      "n_events": 98,
+      "n_pos": 27
+    },
+    "exact-score": {
+      "D": 8.572474710245585e-05,
+      "ci": [
+        -7.060964204927309e-06,
+        0.00023909784487957813
+      ],
+      "n_matches": 38,
+      "n_events": 97,
+      "n_pos": 4
+    }
+  },
+  "subsystem_eval": {
+    "full": {
+      "pre": 1155,
+      "post": 567
+    },
+    "moneyline": {
+      "pre": 1155,
+      "post": 567
+    },
+    "moneyline+total-goals": {
+      "pre": 1155,
+      "post": 567
+    },
+    "no-exact-score": {
+      "pre": 1155,
+      "post": 567
+    },
+    "exact-score": {
+      "pre": 1142,
+      "post": 561
+    }
+  },
+  "subsystem_positive": {
+    "full": {
+      "pre": 419,
+      "post": 420
+    },
+    "moneyline": {
+      "pre": 65,
+      "post": 24
+    },
+    "moneyline+total-goals": {
+      "pre": 76,
+      "post": 26
+    },
+    "no-exact-score": {
+      "pre": 121,
+      "post": 116
+    },
+    "exact-score": {
+      "pre": 27,
+      "post": 17
+    }
+  },
+  "n_instants": {
+    "pre": 1155,
+    "post": 567
+  },
+  "n_events": 98
+}

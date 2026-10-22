@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the associated article."
+type: software
+title: "Prediction-market coherence: replication materials"
+authors:
+  - family-names: Burz
+    given-names: Silviu
+  - family-names: Chiru
+    given-names: Costin-Gabriel
+repository-code: "https://github.com/silviuburz/prediction-market-coherence"
+url: "https://github.com/silviuburz/prediction-market-coherence"
+preferred-citation:
+  type: article
+  title: "A Payoff-Compiled Audit of Dynamic Coherence in Linked Prediction-Market Order Books"
+  authors:
+    - family-names: Burz
+      given-names: Silviu
+    - family-names: Chiru
+      given-names: Costin-Gabriel
+  journal: IEEE Access
+  year: 2026
+  doi: "10.1109/ACCESS.2026.3746471"
+  url: "https://doi.org/10.1109/ACCESS.2026.3746471"

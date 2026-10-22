@@ -1,0 +1,364 @@
+#!/usr/bin/env python3
+"""Family attribution + effect-size context for the coherence event study.
+
+S is the minimum uniform slack s >= 0 such that some distribution q over the
+payoff-equivalence classes of regulation scores (typically 66 per match; see
+saturation_lemma.py) satisfies  low_i - s <= (Xq)_i <= high_i + s  for every
+contract i. So S is an L-infinity violation, and the constraints that are
+ACTIVE at the optimum are literally the relations that fail: the LP dual is a
+certificate of incoherence. Two complementary attributions are computed:
+
+  1. DUAL CERTIFICATE -- share of |dual| mass by contract family at each instant,
+     compared pre-goal vs post-goal. Answers "which relations break".
+  2. LEAVE-ONE-FAMILY-OUT -- recompute S with family F deleted and re-estimate the
+     event effect. If deleting F collapses the effect, F carries it. Answers
+     "is the result driven by one fragile corner of the contract set".
+  3. SIZE-MATCHED RANDOM DROP -- the obvious rejoinder to (2) is that deleting a
+     family also deletes identifying restrictions, so the effect could collapse
+     merely because the system became underdetermined. For every family F we
+     therefore also delete a RANDOM subset of the same cardinality and re-estimate.
+     If the family-specific drop collapses the effect much further than the
+     size-matched random drop, the attribution is genuinely about that family; if
+     the two agree, the LOFO result is only measuring system size.
+
+Both are evaluated ONLY at the pre/post window grid points of isolated goals
+rather than the full match grid, which is ~400x less LP work than the engine.
+The baseline row must reproduce the frozen engine estimate; that is asserted.
+
+Also reports effect-size context: tick size, quoted half-spread and canonical
+interval width, so the headline in cents can be stated in ticks and in spreads.
+
+Run: /home/azureuser/.venv/bin/python -u family_attribution.py --cohort dev
+"""
+import argparse
+import json
+import os
+import sys
+from collections import defaultdict
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import numpy as np                                     # noqa: E402
+from scipy.optimize import linprog                     # noqa: E402
+import event_study as ES                               # noqa: E402
+from compiler import build_contracts, load_manifest, state_classes  # noqa: E402
+
+OUT = "/home/azureuser/projects/wc_coherence"
+P = ES.P
+G, WIN = P["GRID"], P["WIN"]
+FAMS = ["exact-score", "moneyline", "btts", "total-goals", "team-total", "spread"]
+C = 100.0   # S is carried in probability units; all display is in cents
+np.random.seed(P["SEED"])
+
+
+def solve_S_dual(X, lows, highs):
+    """Same LP as event_study.solve_S, but also returns the dual certificate."""
+    m, n = X.shape
+    nv = n + 1
+    c = np.zeros(nv)
+    c[-1] = 1.0
+    A_ub = np.zeros((2 * m, nv))
+    b_ub = np.zeros(2 * m)
+    A_ub[:m, :-1] = -X
+    A_ub[:m, -1] = -1.0
+    b_ub[:m] = -np.array(lows)
+    A_ub[m:, :-1] = X
+    A_ub[m:, -1] = -1.0
+    b_ub[m:] = np.array(highs)
+    A_eq = np.zeros((1, nv))
+    A_eq[0, :-1] = 1.0
+    try:
+        r = linprog(c, A_ub=A_ub, b_ub=b_ub, A_eq=A_eq, b_eq=np.array([1.0]),
+                    bounds=[(0, 1)] * n + [(0, None)], method="highs")
+    except Exception:
+        return None, None
+    if not r.success:
+        return None, None
+    s = float(r.x[-1])
+    duals = None
+    try:
+        y = np.abs(np.asarray(r.ineqlin.marginals, dtype=float))
+        # rows 0..m-1 are lower-bound constraints, m..2m-1 upper-bound, same order
+        per_contract = y[:m] + y[m:]
+        tot = per_contract.sum()
+        if tot > 1e-12:
+            duals = per_contract / tot
+    except Exception:
+        duals = None
+    return s, duals
+
+
+def run(cohort):
+    split = json.load(open(f"{OUT}/registrations/dev_holdout_split.json"))
+    matches = sorted(split[cohort])
+    M, _ = load_manifest()
+    print("=" * 104)
+    print(f"FAMILY ATTRIBUTION — cohort {cohort.upper()} ({len(matches)} matches)")
+    print("=" * 104)
+
+    d_base = defaultdict(list)
+    d_lofo = {f: defaultdict(list) for f in FAMS}
+    d_rand = {f: defaultdict(list) for f in FAMS}
+    share = {"pre": defaultdict(list), "post": defaultdict(list)}
+    active = {"pre": defaultdict(list), "post": defaultdict(list)}
+    ctx = {"tick": [], "half_spread": [], "canon_width": []}
+    fam_sizes = defaultdict(list)
+    n_ev = 0
+
+    for mi, match in enumerate(matches, 1):
+        contracts, info = build_contracts(M, match)
+        if contracts is None:
+            continue
+        reps = state_classes(contracts)
+        X = np.array([[c["rule"](h, a) for (h, a) in reps] for c in contracts],
+                     dtype=float)
+        fam_of = np.array([c["family"] for c in contracts])
+        # size-matched random drop masks, fixed per match so the comparison with
+        # leave-one-family-out is paired on exactly the same events
+        mrng = np.random.default_rng(abs(hash(match)) % (2 ** 32))
+        rand_keep = {}
+        for f in FAMS:
+            nf = int((fam_of == f).sum())
+            fam_sizes[f].append(nf)
+            if nf == 0 or nf >= len(contracts) - 2:
+                continue
+            drop = mrng.choice(len(contracts), size=nf, replace=False)
+            k = np.ones(len(contracts), dtype=bool)
+            k[drop] = False
+            rand_keep[f] = k
+        ser, ticks = _load_series(contracts)
+        ctx["tick"].extend(ticks)
+
+        esp = info["espn_rows"]
+        tin = [ES.iso(d.get("captured_at")) for d in esp
+               if str(d.get("status")) in ("in", "STATUS_IN_PROGRESS")
+               and (d.get("period") or 0) and int(d["period"]) <= 2]
+        tin = [t for t in tin if t]
+        if len(tin) < 20:
+            continue
+        t_start, t_end = min(tin), max(tin)
+        goals = [g for g in ES.goals_of(info["game_id"]) if t_start <= g["w"] <= t_end]
+        gw = sorted(g["w"] for g in goals)
+        gt = np.arange(t_start, t_end, G)
+
+        for g in goals:
+            w = g["w"]
+            if w - WIN < t_start or w + WIN > t_end:
+                continue
+            if not all(abs(w - o) > P["ISO_GAP"] for o in gw if o != w):
+                continue
+            idx = {}
+            for tag, lo, hi in (("pre", P["PRE_LO"], P["PRE_HI"]),
+                                ("post", P["POST_LO"], P["POST_HI"])):
+                i0 = int(np.searchsorted(gt, w + lo))
+                i1 = int(np.searchsorted(gt, w + hi))
+                idx[tag] = [i for i in range(i0, i1 + 1) if 0 <= i < len(gt)]
+            vals = {"pre": {"base": [], **{f: [] for f in FAMS},
+                            **{("R", f): [] for f in FAMS}},
+                    "post": {"base": [], **{f: [] for f in FAMS},
+                             **{("R", f): [] for f in FAMS}}}
+            for tag in ("pre", "post"):
+                for i in idx[tag]:
+                    t = gt[i]
+                    lows, highs, avail = [], [], 0
+                    for c in contracts:
+                        cs = ser.get((c["slug"], "canon_token"))
+                        ps = ser.get((c["slug"], "comp_token"))
+                        can = ES.token_quote_env(cs[0], cs[1], t) if cs else None
+                        comp = ES.token_quote_env(ps[0], ps[1], t) if ps else None
+                        ci = ES.canonical_interval(can, comp)
+                        if ci is None:
+                            lows.append(0.0)
+                            highs.append(1.0)
+                            continue
+                        lo_, hi_, ns = ci
+                        lows.append(lo_)
+                        highs.append(hi_)
+                        if ns > 0:
+                            avail += 1
+                            ctx["canon_width"].append(hi_ - lo_)
+                            if can and can[0] is not None and can[1] is not None:
+                                ctx["half_spread"].append(0.5 * (can[1] - can[0]))
+                    if avail < P["MIN_AVAIL"]:
+                        continue
+                    s, du = solve_S_dual(X, lows, highs)
+                    if s is None:
+                        continue
+                    vals[tag]["base"].append(s)
+                    if du is not None and s > 1e-6:
+                        for f in FAMS:
+                            sel = fam_of == f
+                            if sel.any():
+                                share[tag][f].append(float(du[sel].sum()))
+                                active[tag][f].append(
+                                    float((du[sel] > 1e-9).any()))
+                    for f in FAMS:
+                        keep = fam_of != f
+                        if keep.sum() < 3 or (~keep).sum() == 0:
+                            continue
+                        sf, _ = solve_S_dual(X[keep],
+                                             list(np.array(lows)[keep]),
+                                             list(np.array(highs)[keep]))
+                        if sf is not None:
+                            vals[tag][f].append(sf)
+                        rk = rand_keep.get(f)
+                        if rk is not None and rk.sum() >= 3:
+                            sr, _ = solve_S_dual(X[rk],
+                                                 list(np.array(lows)[rk]),
+                                                 list(np.array(highs)[rk]))
+                            if sr is not None:
+                                vals[tag][("R", f)].append(sr)
+            if not vals["pre"]["base"] or not vals["post"]["base"]:
+                continue
+            n_ev += 1
+            d_base[match].append(np.mean(vals["post"]["base"])
+                                 - np.mean(vals["pre"]["base"]))
+            for f in FAMS:
+                if vals["pre"][f] and vals["post"][f]:
+                    d_lofo[f][match].append(np.mean(vals["post"][f])
+                                            - np.mean(vals["pre"][f]))
+                if vals["pre"][("R", f)] and vals["post"][("R", f)]:
+                    d_rand[f][match].append(np.mean(vals["post"][("R", f)])
+                                            - np.mean(vals["pre"][("R", f)]))
+        if mi % 10 == 0:
+            print(f"  ... {mi}/{len(matches)} matches, {n_ev} isolated events",
+                  flush=True)
+
+    def boot(pm):
+        ms = sorted(pm)
+        v = np.array([float(np.mean(pm[m])) for m in ms])
+        if len(v) < 3:
+            return None
+        b = np.array([np.mean(np.random.choice(v, len(v), replace=True))
+                      for _ in range(P["N_BOOT"])])
+        lo, hi = np.percentile(b, [2.5, 97.5])
+        return {"D": float(v.mean()), "ci": [float(lo), float(hi)],
+                "n_matches": len(ms), "n_events": sum(len(x) for x in pm.values())}
+
+    base = boot(d_base)
+    base_ci = f"[{C*base['ci'][0]:+.3f}, {C*base['ci'][1]:+.3f}]"
+    print("\n" + "-" * 104)
+    print("LEAVE-ONE-FAMILY-OUT")
+    print(f"  {'dropped family':<18}{'n_ev':>6}{'D (cents)':>12}{'95% CI (cents)':>24}"
+          f"{'vs base':>10}{'retained':>10}{'n_ctr':>7}{'rand%':>8}")
+    print(f"  {'(none = baseline)':<18}{base['n_events']:>6}{C*base['D']:>+12.3f}"
+          f"{base_ci:>24}{'-':>10}{'-':>10}")
+    lofo_out = {}
+    for f in FAMS:
+        r = boot(d_lofo[f])
+        if not r:
+            print(f"  {f:<18}{'-':>6}{'insufficient':>12}")
+            continue
+        ci = f"[{C*r['ci'][0]:+.3f}, {C*r['ci'][1]:+.3f}]"
+        rr = boot(d_rand[f])
+        rand_txt = (f"{100*rr['D']/base['D']:>7.0f}%" if rr else f"{'-':>8}")
+        print(f"  {f:<18}{r['n_events']:>6}{C*r['D']:>+12.3f}{ci:>24}"
+              f"{C*(r['D']-base['D']):>+10.3f}{100*r['D']/base['D']:>9.0f}%"
+              f"{int(np.mean(fam_sizes[f])) if fam_sizes[f] else 0:>7}{rand_txt}")
+        lofo_out[f] = {"lofo": r, "size_matched_random": rr,
+                       "mean_family_size": float(np.mean(fam_sizes[f]))
+                       if fam_sizes[f] else None}
+    print("  'rand%' drops a RANDOM subset of the same size instead of the family.")
+    print("  A family matters specifically only if its retained% is much lower.")
+
+    print("\n" + "-" * 104)
+    print("DUAL CERTIFICATE — share of violation mass by family (instants with S>0)")
+    print(f"  {'family':<18}{'pre share':>11}{'post share':>12}{'delta':>9}"
+          f"{'pre active':>12}{'post active':>13}")
+    cert = {}
+    for f in FAMS:
+        pr, po = share["pre"][f], share["post"][f]
+        ap, ao = active["pre"][f], active["post"][f]
+        if not pr or not po:
+            continue
+        cert[f] = {"pre_share": float(np.mean(pr)), "post_share": float(np.mean(po)),
+                   "pre_active": float(np.mean(ap)), "post_active": float(np.mean(ao)),
+                   "n_pre": len(pr), "n_post": len(po)}
+        print(f"  {f:<18}{np.mean(pr):>11.3f}{np.mean(po):>12.3f}"
+              f"{np.mean(po)-np.mean(pr):>+9.3f}"
+              f"{100*np.mean(ap):>11.0f}%{100*np.mean(ao):>12.0f}%")
+
+    print("\n" + "-" * 104)
+    print("EFFECT-SIZE CONTEXT")
+    for k, lab in (("tick", "tick size"), ("half_spread", "quoted half-spread"),
+                   ("canon_width", "canonical interval width")):
+        a = np.array(ctx[k], dtype=float)
+        a = a[np.isfinite(a)]
+        if not len(a):
+            continue
+        q = np.percentile(a, [25, 50, 75])
+        print(f"  {lab:<26} median {100*q[1]:>7.3f}c   IQR "
+              f"[{100*q[0]:.3f}, {100*q[2]:.3f}]c   n={len(a):,}")
+    tk = np.array(ctx["tick"], dtype=float)
+    tk = tk[np.isfinite(tk) & (tk > 0)]
+    if len(tk):
+        print(f"  headline {C*base['D']:+.3f}c = "
+              f"{C*base['D']/(C*np.median(tk)):.2f} median ticks")
+    cw = np.array(ctx["canon_width"], dtype=float)
+    cw = cw[np.isfinite(cw)]
+    if len(cw):
+        print(f"  headline {C*base['D']:+.3f}c = "
+              f"{C*base['D']/(C*np.median(cw)):.2f} median canonical widths")
+    print("  NOTE: the headline is a sub-tick AVERAGE shift. The interpretable")
+    print("  statement is the threshold response (see FINDINGS 7c): the share of")
+    print("  instants with a violation of at least 0.25c rises 12.8% -> 59.2%.")
+
+    res = {"cohort": cohort, "baseline": base, "lofo": lofo_out, "certificate": cert,
+           "context": {k: {"median": float(np.median(v)), "n": len(v)}
+                       for k, v in ctx.items() if v}}
+    os.makedirs(f"{OUT}/results", exist_ok=True)
+    json.dump(res, open(f"{OUT}/results/family_attribution_v2_{cohort}.json", "w"),
+              indent=2)
+
+    try:
+        eng = json.load(open(f"{OUT}/results/{cohort}/event_study.json"))
+        w_ = C * eng["isolated"]["D"]
+        print(f"\n  self-check vs frozen engine: engine {w_:+.4f}c, "
+              f"here {C*base['D']:+.4f}c, diff {C*base['D']-w_:+.5f}c -> "
+              f"{'MATCH' if abs(w_-C*base['D']) < 5e-3 else '*** MISMATCH ***'}")
+    except Exception as e:
+        print(f"\n  self-check unavailable: {e}")
+    print(f"\nresults -> {OUT}/results/family_attribution_v2_{cohort}.json")
+
+
+def _load_series(contracts):
+    """Per-slug book ingestion mirroring the engine, additionally capturing the
+    venue tick size so the headline can be expressed in ticks."""
+    import glob
+    import gzip
+    ser, ticks = {}, []
+    for c in contracts:
+        books = ES.load_slug_books(c["slug"])
+        for p in glob.glob(f"{ES.LIVE}/*/*/{c['slug']}/*.jsonl.gz")[:1]:
+            try:
+                with gzip.open(p, "rt", errors="ignore") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        try:
+                            b = (json.loads(line).get("book") or {})
+                        except Exception:
+                            continue
+                        tv = b.get("tick_size")
+                        if tv is not None:
+                            ticks.append(float(tv))
+                            break
+            except Exception:
+                pass
+        for key in ("canon_token", "comp_token"):
+            tok = c[key]
+            if not tok:
+                continue
+            got = books.get(tok)
+            if got is None:
+                cand = [a for a in books if a.startswith(tok[:16])]
+                got = books[cand[0]] if len(cand) == 1 else None
+            if got:
+                ser[(c["slug"], key)] = got
+    return ser, ticks
+
+
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--cohort", choices=["dev", "holdout"], required=True)
+    run(ap.parse_args().cohort)

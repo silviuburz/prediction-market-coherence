@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-09-20T07:37:12Z",
+  "purpose": "IEEE Access Access-2026-41761 reviewer 2 comments 1 and 2: complete settlement state space and corrected compiler, applied together in the main specification.",
+  "corrections": [
+    {
+      "id": "cancel_state",
+      "detail": "match-cancelled settlement state appended to the payoff matrix",
+      "reference": "Supplement S2.2"
+    },
+    {
+      "id": "first_to_score_neither",
+      "detail": "first-to-score-neither compiled to 1{h == 0 and a == 0}",
+      "settlement_check": "103 of 103 markets agree, 0 disagreements",
+      "reference": "Supplement S2.6"
+    },
+    {
+      "id": "first_to_score_cancel_payoff",
+      "detail": "cancelled-state payoff of the newly compiled family set to 1.0",
+      "evidence": "If the game is canceled entirely, with no make-up game, this market will resolve to \"Neither\".",
+      "support": "104 of 104 first-to-score-neither markets, verbatim identical",
+      "note": "Not the cancel_payoff default of 0.0. Read from the frozen baseline market descriptions, not assumed."
+    }
+  ],
+  "frozen_reference": {
+    "holdout_D_cents": 0.4361387491631849,
+    "dev_D_cents": 0.6674,
+    "note": "frozen confirmatory estimate, unrevised, retained as the registered result"
+  },
+  "runs": [
+    {
+      "cohort": "dev",
+      "label": "dev_corrected",
+      "D_cents": 0.664058216091675,
+      "ci_cents": [
+        0.5018658650061054,
+        0.8365019112554597
+      ],
+      "n_events": 98,
+      "n_matches": 39,
+      "n_pos": 37,
+      "loo_min_cents": 0.625925662881055,
+      "loo_max_cents": 0.694691327041456,
+      "all_D_cents": 0.6546734046176823,
+      "all_n_events": 114,
+      "rand_p": 0.0001999600079984003,
+      "seconds": 747.3
+    },
+    {
+      "cohort": "holdout",
+      "label": "holdout_corrected",
+      "D_cents": 0.4253489759149101,
+      "ci_cents": [
+        0.31606155361024746,
+        0.5384038498179475
+      ],
+      "n_events": 125,
+      "n_matches": 51,
+      "n_pos": 45,
+      "loo_min_cents": 0.4031198443220972,
+      "loo_max_cents": 0.44562166971892264,
+      "all_D_cents": 0.46054413213396345,
+      "all_n_events": 141,
+      "rand_p": 0.0001999600079984003,
+      "seconds": 963.9
+    }
+  ]
+}

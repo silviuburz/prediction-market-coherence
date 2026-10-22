@@ -1,0 +1,71 @@
+{
+  "cohort": "holdout",
+  "subsystem": "no-exact-score",
+  "families": [
+    "btts",
+    "moneyline",
+    "spread",
+    "team-total",
+    "total-goals"
+  ],
+  "generated_at": "2026-07-26T15:50:42.437015+00:00",
+  "results": {
+    "observed": {
+      "D": 0.0007862788028208786,
+      "ci": [
+        0.0003856799471577363,
+        0.0012156939190076433
+      ],
+      "n_matches": 51,
+      "n_events": 125,
+      "n_pos": 30
+    },
+    "nearest": {
+      "D": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "n_matches": 51,
+      "n_events": 125,
+      "n_pos": 0
+    },
+    "narrowest": {
+      "D": -0.00016893499459267808,
+      "ci": [
+        -0.000310035215748766,
+        -3.514069765111507e-05
+      ],
+      "n_matches": 51,
+      "n_events": 125,
+      "n_pos": 17
+    }
+  },
+  "tick_counts": {
+    "0.001": 34438,
+    "0.0025": 2192,
+    "0.01": 24167
+  },
+  "n_tick_mismatch": 0,
+  "n_inward_fallback": 0,
+  "levels": {
+    "obs": {
+      "pre_mean": 0.00012135114772690761,
+      "post_mean": 0.0008523660931866784,
+      "n_pre": 1481,
+      "n_post": 719
+    },
+    "nearest": {
+      "pre_mean": 0.0,
+      "post_mean": 0.0,
+      "n_pre": 1481,
+      "n_post": 719
+    },
+    "narrowest": {
+      "pre_mean": 0.0002990748779067514,
+      "post_mean": 0.0001722763096893828,
+      "n_pre": 1481,
+      "n_post": 719
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "CAP": 15,
+  "CAP_TEST": 40,
+  "max_thresholds": {
+    "exact": 3,
+    "team": 3,
+    "spread": 5,
+    "total": 9
+  },
+  "required_CAP": 10,
+  "cap_sufficient": true,
+  "n_ok": 104,
+  "n_fail": 0,
+  "n_skipped": 0,
+  "class_counts": {
+    "19": 1,
+    "37": 9,
+    "39": 1,
+    "41": 3,
+    "49": 1,
+    "52": 1,
+    "58": 3,
+    "60": 1,
+    "63": 1,
+    "66": 80,
+    "70": 2,
+    "72": 1
+  },
+  "failures": []
+}

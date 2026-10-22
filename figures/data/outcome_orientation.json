@@ -1,0 +1,12 @@
+{
+  "n_contracts": 4573,
+  "conventions": {
+    "Yes / No": 2146,
+    "team / team": 918,
+    "Over / Under": 1509
+  },
+  "n_checked": 4573,
+  "n_mislabelled": 0,
+  "mislabelled": [],
+  "undetermined": {}
+}

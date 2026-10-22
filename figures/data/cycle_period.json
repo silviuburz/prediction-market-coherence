@@ -1,0 +1,20 @@
+{
+  "cadence_s": 10.0,
+  "n_windows": 831,
+  "slugs_sampled_per_window": 8,
+  "n_consecutive_pairs": 1517002,
+  "period_s": {
+    "median": 10.0,
+    "p90": 10.0,
+    "p99": 13.0,
+    "max": 972.0
+  },
+  "n_over_cadence": 27899,
+  "share_over_cadence_pct": 1.839087885184067,
+  "share_within_cadence_pct": 98.16091211481593,
+  "stamp_sharing": {
+    "mean": 0.9787561598753453,
+    "median": 1.0,
+    "min": 0.04341864716636198
+  }
+}

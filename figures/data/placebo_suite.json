@@ -1,0 +1,269 @@
+{
+  "dev": {
+    "goal": {
+      "result": {
+        "D": 0.00666584882159287,
+        "n_matches": 39,
+        "n_events": 98,
+        "median": 0.005420965608465608,
+        "n_pos": 37,
+        "ci": [
+          0.005010181466944059,
+          0.00832880207555158
+        ],
+        "sig": true,
+        "underpowered": false
+      },
+      "n_anchors": 127,
+      "n_used": 98
+    },
+    "red_card": {
+      "result": {
+        "D": 0.004435953282828283,
+        "n_matches": 4,
+        "n_events": 4,
+        "median": 0.002673295454545461,
+        "n_pos": 3,
+        "ci": null,
+        "sig": null,
+        "underpowered": true
+      },
+      "n_anchors": 6,
+      "n_used": 4
+    },
+    "penalty_nogoal": {
+      "result": {
+        "D": -0.001431544011544007,
+        "n_matches": 2,
+        "n_events": 2,
+        "median": -0.001431544011544007,
+        "n_pos": 1,
+        "ci": null,
+        "sig": null,
+        "underpowered": true
+      },
+      "n_anchors": 2,
+      "n_used": 2
+    },
+    "yellow_card": {
+      "result": {
+        "D": 0.0001617546717452023,
+        "n_matches": 33,
+        "n_events": 51,
+        "median": 0.0,
+        "n_pos": 13,
+        "ci": [
+          -0.00037100624186419946,
+          0.0007521372790456592
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 107,
+      "n_used": 51
+    },
+    "substitution": {
+      "result": {
+        "D": -5.984649054882621e-05,
+        "n_matches": 36,
+        "n_events": 69,
+        "median": -1.0299920638612292e-18,
+        "n_pos": 11,
+        "ci": [
+          -0.00041691948628146466,
+          0.00027764966581246667
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 447,
+      "n_used": 69
+    },
+    "delay": {
+      "result": {
+        "D": 9.56602510430387e-06,
+        "n_matches": 36,
+        "n_events": 125,
+        "median": 0.0,
+        "n_pos": 15,
+        "ci": [
+          -0.0003651611840894249,
+          0.00036415078400445753
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 414,
+      "n_used": 125
+    },
+    "halftime": {
+      "result": {
+        "D": 5.004531926405516e-06,
+        "n_matches": 40,
+        "n_events": 40,
+        "median": 0.0,
+        "n_pos": 14,
+        "ci": [
+          -0.0003350748066603585,
+          0.0003264730429292936
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 47,
+      "n_used": 40
+    },
+    "start_2nd_half": {
+      "result": {
+        "D": 8.59073723494677e-05,
+        "n_matches": 42,
+        "n_events": 42,
+        "median": 0.0,
+        "n_pos": 16,
+        "ci": [
+          -0.00015041710469064785,
+          0.0003312675957224764
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 47,
+      "n_used": 42
+    }
+  },
+  "holdout": {
+    "goal": {
+      "result": {
+        "D": 0.004361387491631849,
+        "n_matches": 51,
+        "n_events": 125,
+        "median": 0.00420833333333333,
+        "n_pos": 43,
+        "ci": [
+          0.0031598025662825406,
+          0.005526564185127856
+        ],
+        "sig": true,
+        "underpowered": false
+      },
+      "n_anchors": 164,
+      "n_used": 125
+    },
+    "red_card": {
+      "result": {
+        "D": 0.000995703577124629,
+        "n_matches": 5,
+        "n_events": 7,
+        "median": 0.001666666666666668,
+        "n_pos": 3,
+        "ci": [
+          -0.0022113741171109562,
+          0.0041509090909090844
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 9,
+      "n_used": 7
+    },
+    "penalty_nogoal": {
+      "result": {
+        "D": -0.013089458072791415,
+        "n_matches": 3,
+        "n_events": 3,
+        "median": -0.014270436507936525,
+        "n_pos": 0,
+        "ci": null,
+        "sig": null,
+        "underpowered": true
+      },
+      "n_anchors": 4,
+      "n_used": 3
+    },
+    "yellow_card": {
+      "result": {
+        "D": 4.558871976471067e-06,
+        "n_matches": 39,
+        "n_events": 74,
+        "median": 0.0,
+        "n_pos": 13,
+        "ci": [
+          -0.0003149083218324153,
+          0.0002968103706992603
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 146,
+      "n_used": 74
+    },
+    "substitution": {
+      "result": {
+        "D": -0.00013495502064412372,
+        "n_matches": 39,
+        "n_events": 88,
+        "median": 0.0,
+        "n_pos": 11,
+        "ci": [
+          -0.0003400969379771466,
+          3.4271065413691714e-05
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 500,
+      "n_used": 88
+    },
+    "delay": {
+      "result": {
+        "D": 0.00013739677765099524,
+        "n_matches": 42,
+        "n_events": 146,
+        "median": 0.0,
+        "n_pos": 20,
+        "ci": [
+          -0.00016882208705990318,
+          0.0004928410286252551
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 481,
+      "n_used": 146
+    },
+    "halftime": {
+      "result": {
+        "D": -2.859475709475745e-05,
+        "n_matches": 50,
+        "n_events": 50,
+        "median": 0.0,
+        "n_pos": 12,
+        "ci": [
+          -0.0001965419667138431,
+          0.0001373064404345652
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 55,
+      "n_used": 50
+    },
+    "start_2nd_half": {
+      "result": {
+        "D": -9.393329778968219e-05,
+        "n_matches": 47,
+        "n_events": 47,
+        "median": 0.0,
+        "n_pos": 10,
+        "ci": [
+          -0.0002538696515757699,
+          5.080579143079185e-05
+        ],
+        "sig": false,
+        "underpowered": false
+      },
+      "n_anchors": 55,
+      "n_used": 47
+    }
+  }
+}

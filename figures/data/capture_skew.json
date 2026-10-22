@@ -1,0 +1,91 @@
+{
+  "matches_per_cohort": 12,
+  "grid_stride": 20,
+  "freshness_cap_s": 30.0,
+  "min_avail": 10,
+  "definition": "age = t minus the most recent capture at or before t, per contract; skew = max age minus min age across the contracts entering that instant",
+  "cohorts": {
+    "dev": {
+      "n_instants": 1358,
+      "age_s": {
+        "median": 0.0,
+        "p90": 7.0,
+        "p99": 8.0,
+        "max": 30.0
+      },
+      "skew_s": {
+        "median": 0.0,
+        "p90": 8.0,
+        "p99": 9.0,
+        "max": 30.0
+      },
+      "family_mean_age_s": {
+        "btts": {
+          "mean": 1.5898876404494382,
+          "n": 2492
+        },
+        "exact-score": {
+          "mean": 0.537971667460902,
+          "n": 46166
+        },
+        "moneyline": {
+          "mean": 0.5842026825633383,
+          "n": 4026
+        },
+        "spread": {
+          "mean": 1.5502658097278426,
+          "n": 25206
+        },
+        "team-total": {
+          "mean": 1.613759479956663,
+          "n": 14768
+        },
+        "total-goals": {
+          "mean": 1.5140760962293125,
+          "n": 23444
+        }
+      }
+    },
+    "holdout": {
+      "n_instants": 1766,
+      "age_s": {
+        "median": 0.0,
+        "p90": 7.0,
+        "p99": 9.0,
+        "max": 30.0
+      },
+      "skew_s": {
+        "median": 1.0,
+        "p90": 8.0,
+        "p99": 9.0,
+        "max": 30.0
+      },
+      "family_mean_age_s": {
+        "btts": {
+          "mean": 1.6211778029445074,
+          "n": 3532
+        },
+        "exact-score": {
+          "mean": 1.3142695356738392,
+          "n": 60044
+        },
+        "moneyline": {
+          "mean": 0.6778625954198473,
+          "n": 3930
+        },
+        "spread": {
+          "mean": 1.461155508974191,
+          "n": 30532
+        },
+        "team-total": {
+          "mean": 1.6141548242333583,
+          "n": 21392
+        },
+        "total-goals": {
+          "mean": 1.571457751753251,
+          "n": 29374
+        }
+      }
+    }
+  }
+}

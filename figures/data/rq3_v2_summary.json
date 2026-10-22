@@ -1,0 +1,362 @@
+[
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.8151651651651651,
+    "direct_rate": 0.8725225225225225,
+    "diff": -0.05735735735735734,
+    "ci": [
+      -0.17642642642642645,
+      0.05992867867867876
+    ],
+    "cohort": "dev",
+    "target": "home_win",
+    "horizon": 10,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.9345345345345345,
+    "direct_rate": 0.8822822822822823,
+    "diff": 0.05225225225225226,
+    "ci": [
+      -0.022522522522522525,
+      0.12882882882882882
+    ],
+    "cohort": "dev",
+    "target": "home_win",
+    "horizon": 30,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.9728228228228228,
+    "direct_rate": 0.8822822822822823,
+    "diff": 0.09054054054054056,
+    "ci": [
+      0.02702702702702703,
+      0.16126126126126125
+    ],
+    "cohort": "dev",
+    "target": "home_win",
+    "horizon": 60,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.984984984984985,
+    "direct_rate": 0.8822822822822823,
+    "diff": 0.1027027027027027,
+    "ci": [
+      0.03153153153153153,
+      0.1801914414414415
+    ],
+    "cohort": "dev",
+    "target": "home_win",
+    "horizon": 180,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.7801801801801802,
+    "direct_rate": 0.7981981981981981,
+    "diff": -0.01801801801801802,
+    "ci": [
+      -0.04954954954954956,
+      0.0
+    ],
+    "cohort": "dev",
+    "target": "over_2_5",
+    "horizon": 10,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.7801801801801802,
+    "direct_rate": 0.7981981981981981,
+    "diff": -0.01801801801801802,
+    "ci": [
+      -0.04954954954954956,
+      0.0
+    ],
+    "cohort": "dev",
+    "target": "over_2_5",
+    "horizon": 30,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.7981981981981981,
+    "direct_rate": 0.7981981981981981,
+    "diff": 0.0,
+    "ci": [
+      0.0,
+      0.0
+    ],
+    "cohort": "dev",
+    "target": "over_2_5",
+    "horizon": 60,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.7981981981981981,
+    "direct_rate": 0.8252252252252251,
+    "diff": -0.02702702702702703,
+    "ci": [
+      -0.08108108108108109,
+      0.0
+    ],
+    "cohort": "dev",
+    "target": "over_2_5",
+    "horizon": 180,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.8617117117117117,
+    "direct_rate": 0.6319819819819821,
+    "diff": 0.22972972972972974,
+    "ci": [
+      0.15045045045045047,
+      0.3117117117117117
+    ],
+    "cohort": "dev",
+    "target": "btts",
+    "horizon": 10,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.8849849849849849,
+    "direct_rate": 0.6477477477477478,
+    "diff": 0.23723723723723725,
+    "ci": [
+      0.15810435435435438,
+      0.32312687687687697
+    ],
+    "cohort": "dev",
+    "target": "btts",
+    "horizon": 30,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.8993993993993994,
+    "direct_rate": 0.7124624624624625,
+    "diff": 0.18693693693693694,
+    "ci": [
+      0.07790540540540543,
+      0.29100225225225235
+    ],
+    "cohort": "dev",
+    "target": "btts",
+    "horizon": 60,
+    "level": 0.02
+  },
+  {
+    "n_matches": 37,
+    "n_events": 115,
+    "implied_rate": 0.9286786786786788,
+    "direct_rate": 0.7696696696696695,
+    "diff": 0.15900900900900902,
+    "ci": [
+      0.05986486486486487,
+      0.2513513513513514
+    ],
+    "cohort": "dev",
+    "target": "btts",
+    "horizon": 180,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.7973333333333332,
+    "direct_rate": 0.8131666666666666,
+    "diff": -0.015833333333333338,
+    "ci": [
+      -0.0993375,
+      0.07017083333333334
+    ],
+    "cohort": "holdout",
+    "target": "home_win",
+    "horizon": 10,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.9080000000000001,
+    "direct_rate": 0.8331666666666666,
+    "diff": 0.07483333333333334,
+    "ci": [
+      0.030325000000000005,
+      0.12751250000000006
+    ],
+    "cohort": "holdout",
+    "target": "home_win",
+    "horizon": 30,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.9130000000000001,
+    "direct_rate": 0.8331666666666666,
+    "diff": 0.07983333333333334,
+    "ci": [
+      0.03632916666666666,
+      0.13066666666666665
+    ],
+    "cohort": "holdout",
+    "target": "home_win",
+    "horizon": 60,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.9311666666666667,
+    "direct_rate": 0.8481666666666666,
+    "diff": 0.083,
+    "ci": [
+      0.030333333333333334,
+      0.14033333333333334
+    ],
+    "cohort": "holdout",
+    "target": "home_win",
+    "horizon": 180,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.8641666666666665,
+    "direct_rate": 0.8734999999999999,
+    "diff": -0.009333333333333332,
+    "ci": [
+      -0.03701666666666666,
+      0.014000000000000002
+    ],
+    "cohort": "holdout",
+    "target": "over_2_5",
+    "horizon": 10,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.8825,
+    "direct_rate": 0.8885,
+    "diff": -0.005999999999999998,
+    "ci": [
+      -0.03,
+      0.012000000000000004
+    ],
+    "cohort": "holdout",
+    "target": "over_2_5",
+    "horizon": 30,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.8825,
+    "direct_rate": 0.8925,
+    "diff": -0.01,
+    "ci": [
+      -0.03,
+      0.0
+    ],
+    "cohort": "holdout",
+    "target": "over_2_5",
+    "horizon": 60,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.8925,
+    "direct_rate": 0.8925,
+    "diff": 0.0,
+    "ci": [
+      0.0,
+      0.0
+    ],
+    "cohort": "holdout",
+    "target": "over_2_5",
+    "horizon": 180,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.8145,
+    "direct_rate": 0.6313333333333333,
+    "diff": 0.18316666666666667,
+    "ci": [
+      0.08766249999999999,
+      0.2786666666666667
+    ],
+    "cohort": "holdout",
+    "target": "btts",
+    "horizon": 10,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.8669999999999999,
+    "direct_rate": 0.6786666666666666,
+    "diff": 0.18833333333333335,
+    "ci": [
+      0.099325,
+      0.27667500000000006
+    ],
+    "cohort": "holdout",
+    "target": "btts",
+    "horizon": 30,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.8836666666666666,
+    "direct_rate": 0.7296666666666666,
+    "diff": 0.154,
+    "ci": [
+      0.07365833333333333,
+      0.22933333333333333
+    ],
+    "cohort": "holdout",
+    "target": "btts",
+    "horizon": 60,
+    "level": 0.02
+  },
+  {
+    "n_matches": 50,
+    "n_events": 149,
+    "implied_rate": 0.9235,
+    "direct_rate": 0.8046666666666665,
+    "diff": 0.11883333333333335,
+    "ci": [
+      0.05849583333333333,
+      0.17901250000000005
+    ],
+    "cohort": "holdout",
+    "target": "btts",
+    "horizon": 180,
+    "level": 0.02
+  }
+]

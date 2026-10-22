@@ -1,0 +1,33 @@
+{
+  "n_contracts": 4573,
+  "verdicts": {
+    "agree": 4544,
+    "name variant": 29
+  },
+  "regulation_window": {
+    "states regulation window": 4573
+  },
+  "by_family": {
+    "moneyline": {
+      "agree": 309
+    },
+    "exact-score": {
+      "agree": 1734
+    },
+    "spread": {
+      "agree": 901,
+      "name variant": 17
+    },
+    "total-goals": {
+      "agree": 888
+    },
+    "btts": {
+      "agree": 103
+    },
+    "team-total": {
+      "agree": 609,
+      "name variant": 12
+    }
+  },
+  "disagreements": []
+}

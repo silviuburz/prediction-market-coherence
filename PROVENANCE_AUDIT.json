@@ -1,0 +1,539 @@
+{
+  "record": "PROVENANCE.json",
+  "producer_count": 48,
+  "producers_resolved": 48,
+  "producers_unresolved": [],
+  "artifacts_checked": 43,
+  "artifacts_reconciled": 27,
+  "artifacts_figure_stage": [
+    "event_time_profiles.json",
+    "randomization_null.json",
+    "threshold_ccdf.json"
+  ],
+  "artifacts_external": [
+    "wikipedia_wc2026_results.json"
+  ],
+  "artifacts_post_record": [
+    "capture_skew.json",
+    "corrected_specification.json",
+    "cycle_period.json",
+    "description_validation.json",
+    "event_funnel.json",
+    "event_time_profile_holdout_corrected.json",
+    "fail_closed_breakdown.json",
+    "first_to_score_neither.json",
+    "freshness_twosided_summary.json",
+    "outcome_orientation.json",
+    "size_matched_deletion.json",
+    "system_composition.json"
+  ],
+  "artifacts_mismatched": [],
+  "artifacts_unaccounted": [],
+  "producer_detail": [
+    {
+      "producer": "anchor_precision.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "e2c07326a39e4277a902c46acf5d4fc116da532cddb6dfae5425bb85f5266541"
+    },
+    {
+      "producer": "availability_census.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "06841aa95d60b83aa96c5523a2473bd4e3b07920cdf4512dfd89528d80e3067f"
+    },
+    {
+      "producer": "compiler.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "c8556015f98ae5fd607e406159e7821ab0a5c18bacbe19e3cba06e0c10e2058f"
+    },
+    {
+      "producer": "crossed_interval_qc.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "623d38d655f772a1658a97547694caec2c4acb2c8227dd093e5e5afd92dead3f"
+    },
+    {
+      "producer": "dump_regulation_scores.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "bc9e06690ce030965cbbcbae34828a264528fe64951fa8fbb65f48bb6337efc7"
+    },
+    {
+      "producer": "event_study.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "5d7571223373fd1f4284023252a667014522306c32373ddeb9a8e660e74cd3fd"
+    },
+    {
+      "producer": "f1_validate_all_matches.py",
+      "resolved_from": "frozen_producers",
+      "commit": null,
+      "sha256": "49aff87938d942e2ca71fdbcf1d0b3c67269a633e85a0af18b84c3537afa0dc9"
+    },
+    {
+      "producer": "fam_attr_v2.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "6ec6a68a8316454b7d75c7eaa015b6769f4e133db2de98b8f0260f0cc788fc68"
+    },
+    {
+      "producer": "family_attribution.py",
+      "resolved_from": "frozen_producers",
+      "commit": null,
+      "sha256": "3c25c60c04d407c1443094a05f70beafa56bcf6d1fc845ce1c633b5db0bc0201"
+    },
+    {
+      "producer": "figure_inputs.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "2eb01781955dea9e8ece66411c52fe3370efd2348a833cbfe871b6668ce72801"
+    },
+    {
+      "producer": "freshness_and_straddle.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "f72de6ff14822188e502bd4706ee2c82181aa20b7830be681db3ff7bde0520cf"
+    },
+    {
+      "producer": "g2_coherence_pilot.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "2d83cb6e70867b899a1ef9445f1e5f3e9429cababf78d766ebb33f0d7d6ced45"
+    },
+    {
+      "producer": "g2b_staleness.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "408a88f8efb4508048210ee1b598e9a9189f30a21bc7d0b880ad975c390e3d93"
+    },
+    {
+      "producer": "g2c_envelope.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "9dc9838c6282c30dcbae7751010b6e4d9608a869e11b4831078e8ddbfe2619cc"
+    },
+    {
+      "producer": "g3_event_study.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "78ff8efffa8ccdda1cd7131a24fb91e34a713f047594cd709da330751d9c6436"
+    },
+    {
+      "producer": "g3b_dev_event_study.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "d3fff3524d5c05a06d52e38f463a34821c1f6ebdb3502c4fc62dc9f7b4057c0a"
+    },
+    {
+      "producer": "inventory_descriptions.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "531da334e43515949c402ea0f98b332acafefb3f920a99752de7fc341482b12f"
+    },
+    {
+      "producer": "l1_functional.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "d673723db07a9edf9dcbf281c2796bfe356f714ea012ce9b5d6da8fd09a9c855"
+    },
+    {
+      "producer": "matched_placebo.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "0546d0f455b397ee343107681ad44a8d7587bf75af66aa2bdb471a9f2a001665"
+    },
+    {
+      "producer": "measure_cadence.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "7f86a967a0578dacc711fafdd53ba9f5407fa89534f6325c2fbc9555f4a9c544"
+    },
+    {
+      "producer": "placebo_suite.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "07329a4d0de839a1921088a469f5ed7ce871d4de49a721e7bd1398d84f5cd42c"
+    },
+    {
+      "producer": "probe_descriptions.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "1b37aab44f45ab0972d0c89c16495ea4876c66575bc39eda1ec34ac48d37589b"
+    },
+    {
+      "producer": "probe_placebo_events.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "ddaf4150cf4059833e2d5c34b2a4a7ec9324e415542f7b4806ed531c8ffde6a0"
+    },
+    {
+      "producer": "provenance_manifest.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "989ffae78655edb28f33348c8054adf5b9c14c80b24da487b0ee67c4c1240243"
+    },
+    {
+      "producer": "qc_alignment_and_selection.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "b9d6d2f905909df4d7430feeec58df2507e1b84bc1428f02c4e87a8fa73ced94"
+    },
+    {
+      "producer": "qc_availability.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "004220261f893c6bc7742bb38fe70397e078df6434202a709e069055dadb4ccc"
+    },
+    {
+      "producer": "qc_goal_table.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "7f060559fc007e5cd29fe885b344fbf72083d9743f750c6110fcc04b23e5370d"
+    },
+    {
+      "producer": "qc_null_tightness.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "9e39c9ff4536dababd9001dd72cd930b440cdecfe08bff27acb51aa03052290d"
+    },
+    {
+      "producer": "randomization_test.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "9adda8ab9b8ffa25b4ca590d4269516dd3174267701abf90e4eb88a71c696536"
+    },
+    {
+      "producer": "rq3_propagation.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "3349bc848ed2735a81bdfdd2ab5b0228da01a249a9bb17915508007615920250"
+    },
+    {
+      "producer": "rq3_v2_censoring.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "794ec70ea96fedf03d02267475882a407b5de9870abe874c13bddb60ee83dc34"
+    },
+    {
+      "producer": "run_audit_reruns.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "f94e9c05f73664878ad6e569c72851950a7a6810e870aa77f055a3a06da0d2a5"
+    },
+    {
+      "producer": "run_correction_sprint.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "3818702fc652a2eb9c48c576d2c4c5cbe1b8b6106dc03fd0eb3f5fde09a9cf9c"
+    },
+    {
+      "producer": "run_correction_sprint2.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "295f85ca700707bdabfb4f9954984417e896fe9a438016cd1479f004851ef288"
+    },
+    {
+      "producer": "run_fam2.sh",
+      "resolved_from": "frozen_producers",
+      "commit": null,
+      "sha256": "6a81d106b8e96e379a5daa3d653cc64bb31404f6ecf651549bebf56ecd4b40dd"
+    },
+    {
+      "producer": "run_fam4.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "6755189371192e1c2b9f2ee449b5888ec1139bfeb690eb3501540e82822b6432"
+    },
+    {
+      "producer": "run_final_sync.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "4893a49d1e3b386d54f9aeaf17885365361b8b05bb101233814b1f3cda90a097"
+    },
+    {
+      "producer": "run_freshness.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "e31d118269da4a3151957f414ae66048ad488a567fbe1da1330421936eab02c3"
+    },
+    {
+      "producer": "run_l1func.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "8063c5535313455b3cf3fd1bfc20a8d4183e6c108c7754c162df485354a8df40"
+    },
+    {
+      "producer": "run_subsystem.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "61d878a9b63d7c5ecf2425a8baecc95604f70813ee2feda097df31426bd41878"
+    },
+    {
+      "producer": "run_ticknull.sh",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "93fd9011db4391ce6239d0e51156d45fe986d375ddd1c51f972f5f25300d87aa"
+    },
+    {
+      "producer": "saturation_lemma.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "d66622cf20544382f2894b9d1a408cf7847a2ac8ad2c849d107c688da76d413e"
+    },
+    {
+      "producer": "spec_curve.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "cb58688cd73bbaf7a18d499dde6e2987c1fa50de15e471542baa39e05d9be640"
+    },
+    {
+      "producer": "spec_curve_v2.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "f1938012e9e46769ebcd12e28e69a1479c2a785939bfae9c006d338b55a4560e"
+    },
+    {
+      "producer": "spec_curve_v3.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "aff85b6eb8104e731bcd576c3a1f281162bf262a170828a69adae45bbc82b9bc"
+    },
+    {
+      "producer": "split_lottery.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "022ef9fec2288a4b2f8ddc12854c4751e06723a126e282dab3da5eb2da1a7be0"
+    },
+    {
+      "producer": "subsystem_and_availability.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "ccd40daa7a93f09332d5d8494efb549fbe67a34ef7031ade72df36c3a351c86b"
+    },
+    {
+      "producer": "tick_null.py",
+      "resolved_from": "working tree",
+      "commit": null,
+      "sha256": "d7e8b69a85e883bd681e1ac00068837e3a5848f73eac4c82c65e071538c58174"
+    }
+  ],
+  "artifact_detail": [
+    {
+      "artifact": "anchor_precision.json",
+      "recorded_as": "results/anchor_precision.json",
+      "sha256": "dbcbe30d4f255e95d2a60ddefc295ddaafe50e20289512eaf9832671ae8f0cf9"
+    },
+    {
+      "artifact": "availability_census.json",
+      "recorded_as": "results/availability_census.json",
+      "sha256": "c147bc635c46506865ad3e8a0663468db26bc1a0495437caaa8607e48f0a5884"
+    },
+    {
+      "artifact": "capture_skew.json",
+      "recorded_as": "post-record, produced by capture_skew.py",
+      "sha256": "f445faed3311d9b00f35e50acff1d9a0efdb1f292481d2cf7babdf7b2066c874"
+    },
+    {
+      "artifact": "corrected_specification.json",
+      "recorded_as": "post-record, produced by corrected_specification.py",
+      "sha256": "b50a6ca32dc95a278c136953062fa56eeddb4cb5c84660a869ccb11ef182632c"
+    },
+    {
+      "artifact": "crossed_interval_qc_dev.json",
+      "recorded_as": "results/dev/crossed_interval_qc.json",
+      "sha256": "25592e1a04dbc4411a1698883b970f989f64ae4fc30e75496db615f82b49a322"
+    },
+    {
+      "artifact": "crossed_interval_qc_holdout.json",
+      "recorded_as": "results/holdout/crossed_interval_qc.json",
+      "sha256": "f78c3007a4a07a2ebd7e48110fe9aa8be3993b3f064e4608e6cff0de90d29be2"
+    },
+    {
+      "artifact": "cycle_period.json",
+      "recorded_as": "post-record, produced by cycle_period.py",
+      "sha256": "3aa5bd3e23fd2396c1c4e03d893ffa57e1824be59a94fc64373e7d93e1f9195f"
+    },
+    {
+      "artifact": "description_validation.json",
+      "recorded_as": "post-record, produced by validate_descriptions.py",
+      "sha256": "3d7ae4a1d489536e70efd622fd47bafe412d0e87be911acdff85c0cdba733023"
+    },
+    {
+      "artifact": "dev_holdout_split.json",
+      "recorded_as": "registrations/dev_holdout_split.json",
+      "sha256": "ff9dcdc815bc53c453d6773b467d0f62cefd7a9237f3548162e022bb7c7173e1"
+    },
+    {
+      "artifact": "event_funnel.json",
+      "recorded_as": "post-record, produced by event_funnel.py",
+      "sha256": "f5aff9b62c1b3fa38f4b1dddd81ea7a6495451f5a9656e808d9fc6a299f17bb9"
+    },
+    {
+      "artifact": "event_study_dev.json",
+      "recorded_as": "results/dev/event_study.json",
+      "sha256": "ad88f9b3dff2b6951a55e904b838a7d01567a9671d71c815109f6f35d20512ff"
+    },
+    {
+      "artifact": "event_study_holdout.json",
+      "recorded_as": "results/holdout/event_study.json",
+      "sha256": "2d626b126bcf35f2df8e446e929ae194552477be897db842690b5d3aea927c37"
+    },
+    {
+      "artifact": "event_time_profile_holdout_corrected.json",
+      "recorded_as": "post-record, produced by profile_for_cohort.py",
+      "sha256": "7215799ff2d886da06f69678027eb21ac6c035e7b8c7ff3e46e218157e9bd31d"
+    },
+    {
+      "artifact": "event_time_profiles.json",
+      "recorded_as": "figs/ via figure_inputs.py (producer recorded)",
+      "sha256": "4355f546ce210a70ce54566f3d765a900a71d6a0c550691bbf25cebe61c90c02"
+    },
+    {
+      "artifact": "f1_validate_all.json",
+      "recorded_as": "results/f1_validate_all.json",
+      "sha256": "51a15641a33da722d6b4b36533c0d328262818e47e892d9c96f61089293999f8"
+    },
+    {
+      "artifact": "fail_closed_breakdown.json",
+      "recorded_as": "post-record, produced by fail_closed_breakdown.py",
+      "sha256": "74c326a6cb40560159fe47b53159cc5794a89a8516b324a61bd5d93b0b16b470"
+    },
+    {
+      "artifact": "family_attribution_v2_dev.json",
+      "recorded_as": "results/family_attribution_v2_dev.json",
+      "sha256": "63650e8d7ac7d389a231da4f066bc29cc8b250e27781eb195891f0832f57c14a"
+    },
+    {
+      "artifact": "family_attribution_v2_holdout.json",
+      "recorded_as": "results/family_attribution_v2_holdout.json",
+      "sha256": "ca3eea3b0e0c5fb0644d6380dea480d9a7a8b100b3bd7b95b5eda920ddbd40c5"
+    },
+    {
+      "artifact": "first_to_score_neither.json",
+      "recorded_as": "post-record, produced by fts_neither_sensitivity.py",
+      "sha256": "030c35a8fac985941a2f884e0f4b928f7c6a7f8aaa38c9ef91b9a0cf514e962e"
+    },
+    {
+      "artifact": "freshness_straddle_dev.json",
+      "recorded_as": "results/freshness_straddle_dev.json",
+      "sha256": "57f7696e6e0c3e16a05a7afad4173a71e06210d204b8eeecd4e1d7d9fd1b2568"
+    },
+    {
+      "artifact": "freshness_straddle_holdout.json",
+      "recorded_as": "results/freshness_straddle_holdout.json",
+      "sha256": "fc598a14b66158a2591a97922fe7e4fd38cc15378a7538b20dfc2a0ee4691489"
+    },
+    {
+      "artifact": "freshness_twosided_summary.json",
+      "recorded_as": "post-record, produced by freshness_twosided.py",
+      "sha256": "89637a478d905b236f413a0f0ecdcd33f194c776a84f7d6ad1276624836fd576"
+    },
+    {
+      "artifact": "l1_functional_dev.json",
+      "recorded_as": "results/l1_functional_dev.json",
+      "sha256": "06a340fa3ea95264b9f0c3b0629f2508511695cba4c5d3c2a3e7c40d22478833"
+    },
+    {
+      "artifact": "matched_placebo.json",
+      "recorded_as": "results/matched_placebo.json",
+      "sha256": "da11badcc046fcde989c578789df732f9234548a871a6669a9d397fac62c1946"
+    },
+    {
+      "artifact": "outcome_orientation.json",
+      "recorded_as": "post-record, produced by validate_orientation.py",
+      "sha256": "a9188584eaca5d2a89e562f21d2f8daef1387721a3502db08119b512b267fc66"
+    },
+    {
+      "artifact": "placebo_suite.json",
+      "recorded_as": "results/placebo_suite.json",
+      "sha256": "10e67372349faa96f31fb08a337788a3ffe02cc3917ad342087d6648739b038b"
+    },
+    {
+      "artifact": "randomization_null.json",
+      "recorded_as": "figs/ via figure_inputs.py (producer recorded)",
+      "sha256": "3ee34d768c4697d272d0008d13b55d4ad749ef5901f2f24c8196e3afd4ce0386"
+    },
+    {
+      "artifact": "randomization_test.json",
+      "recorded_as": "results/randomization_test.json",
+      "sha256": "db593025ba229b690706bc4723799896edfb8602f42741d9242f5228d30c3866"
+    },
+    {
+      "artifact": "regulation_scores.json",
+      "recorded_as": "results/regulation_scores.json",
+      "sha256": "aa715dd159cca1f278179cd895fad8b48a58a258d70648fecd7b599a209e893c"
+    },
+    {
+      "artifact": "rq3_v2_summary.json",
+      "recorded_as": "results/rq3_v2_summary.json",
+      "sha256": "8a15253b09cca78bd0fc4601c2a4ec1419d34cce5d39515346882f0f55c5c66d"
+    },
+    {
+      "artifact": "saturation_lemma.json",
+      "recorded_as": "results/saturation_lemma.json",
+      "sha256": "3386c1e0003d3aaae81261ee9e6a2b4161877509a78cb0e1a392965a35ef8ffe"
+    },
+    {
+      "artifact": "size_matched_deletion.json",
+      "recorded_as": "post-record, produced by fam_attr_draws.py",
+      "sha256": "9eeeff7c05ea7d4e87ebcfba17414608245ad78c8756698ab7abe66057ac4f5d"
+    },
+    {
+      "artifact": "spec_curve_v3.json",
+      "recorded_as": "results/spec_curve_v3.json",
+      "sha256": "aed34c99ace38d1d4f71963cf30b55994ddccc6bb1daa4a09b20aa11ed5b8732"
+    },
+    {
+      "artifact": "split_lottery.json",
+      "recorded_as": "results/split_lottery.json",
+      "sha256": "f9f5013224ff30f93ec5eae3b322496d30ae303c09ce379eb0957df2be3e9051"
+    },
+    {
+      "artifact": "subsystem_availability_dev.json",
+      "recorded_as": "results/subsystem_availability_dev.json",
+      "sha256": "4d82ce7b12fdc474404c386ee6a4e41f7d7013740cc0480d03eea3cc7b550ec1"
+    },
+    {
+      "artifact": "subsystem_availability_holdout.json",
+      "recorded_as": "results/subsystem_availability_holdout.json",
+      "sha256": "d14d2b127ab5524a21f5e51d7c733c3791e2c09ca308c916264f5c2118a95ad1"
+    },
+    {
+      "artifact": "system_composition.json",
+      "recorded_as": "post-record, produced by system_composition.py",
+      "sha256": "745e0b989615c2a6be805e8184b5976a75bca822b70f0dd9663f5110c9219579"
+    },
+    {
+      "artifact": "threshold_ccdf.json",
+      "recorded_as": "figs/ via figure_inputs.py (producer recorded)",
+      "sha256": "de67d9a6b214d36d77a592f990efc876e0102acc860e37245a6e558fefaea4d2"
+    },
+    {
+      "artifact": "tick_null_dev.json",
+      "recorded_as": "results/tick_null_dev.json",
+      "sha256": "263d3b49b47218379c49c9d7a7738cba2347e553304b6560154298feb9ec7bc1"
+    },
+    {
+      "artifact": "tick_null_holdout.json",
+      "recorded_as": "results/tick_null_holdout.json",
+      "sha256": "00b0ca76703657dd3cb54d1cc9b17db30a458cfbfdbb224bd5053c0934f3af48"
+    },
+    {
+      "artifact": "tick_null_no_exact_score_dev.json",
+      "recorded_as": "results/tick_null_no_exact_score_dev.json",
+      "sha256": "62dab52ddeeda09d362ab9157784ef3d197ec3f3d114fac4ad11b2e86e2c3a6c"
+    },
+    {
+      "artifact": "tick_null_no_exact_score_holdout.json",
+      "recorded_as": "results/tick_null_no_exact_score_holdout.json",
+      "sha256": "ca81c210d968b5c3d3b27ff17b9a779ff14baac099b007c0bd442fb6c1a5e2af"
+    },
+    {
+      "artifact": "wikipedia_wc2026_results.json",
+      "recorded_as": "externally derived, not a host output",
+      "sha256": "39920d04b41a323ad271da9a6463a889b1407b2c3c37f89bd9cef496a57c8ecf"
+    }
+  ]
+}

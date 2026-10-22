@@ -1,0 +1,1987 @@
+{
+  "n_matches": 104,
+  "n_ok": 104,
+  "settlement_checks": 4573,
+  "settlement_failures": 0,
+  "max_threshold": 9,
+  "CAP": 15,
+  "families": {
+    "exact-score": 1734,
+    "spread": 918,
+    "total-goals": 888,
+    "btts": 103,
+    "team-total": 621,
+    "moneyline": 309
+  },
+  "rows": [
+    {
+      "match": "alg-aut-2026-06-27",
+      "status": "OK",
+      "reg": "3-3",
+      "n_contracts": 43,
+      "checked": 43,
+      "fails": 0,
+      "states": 63,
+      "saturation": true,
+      "families": {
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 191
+    },
+    {
+      "match": "arg-alg-2026-06-16",
+      "status": "OK",
+      "reg": "3-0",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 352
+    },
+    {
+      "match": "arg-aut-2026-06-22",
+      "status": "OK",
+      "reg": "2-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 275
+    },
+    {
+      "match": "arg-che-2026-07-11",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 296
+    },
+    {
+      "match": "arg-cvi-2026-07-03",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 153
+    },
+    {
+      "match": "arg-egy-2026-07-07",
+      "status": "OK",
+      "reg": "3-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 291
+    },
+    {
+      "match": "aus-egy-2026-07-03",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 191
+    },
+    {
+      "match": "aus-tur-2026-06-14",
+      "status": "OK",
+      "reg": "2-0",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 429
+    },
+    {
+      "match": "aut-jor-2026-06-17",
+      "status": "OK",
+      "reg": "3-1",
+      "n_contracts": 39,
+      "checked": 39,
+      "fails": 0,
+      "states": 41,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 6,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 340
+    },
+    {
+      "match": "bel-egy-2026-06-15",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 38,
+      "checked": 38,
+      "fails": 0,
+      "states": 41,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 7,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 416
+    },
+    {
+      "match": "bel-irn-2026-06-21",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 342
+    },
+    {
+      "match": "bel-sen-2026-07-01",
+      "status": "OK",
+      "reg": "2-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 251
+    },
+    {
+      "match": "bih-qat-2026-06-24",
+      "status": "OK",
+      "reg": "3-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 253
+    },
+    {
+      "match": "bra-hai-2026-06-19",
+      "status": "OK",
+      "reg": "3-0",
+      "n_contracts": 47,
+      "checked": 47,
+      "fails": 0,
+      "states": 70,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 7
+      },
+      "failed_closed": 301
+    },
+    {
+      "match": "bra-jpn-2026-06-29",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 301
+    },
+    {
+      "match": "bra-mar-2026-06-13",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 448
+    },
+    {
+      "match": "bra-nor-2026-07-05",
+      "status": "OK",
+      "reg": "1-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 187
+    },
+    {
+      "match": "can-bih-2026-06-12",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 320
+    },
+    {
+      "match": "can-mar-2026-07-04",
+      "status": "OK",
+      "reg": "0-3",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 185
+    },
+    {
+      "match": "can-qat-2026-06-18",
+      "status": "OK",
+      "reg": "6-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 290
+    },
+    {
+      "match": "cdr-uzb-2026-06-27",
+      "status": "OK",
+      "reg": "3-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 177
+    },
+    {
+      "match": "che-alg-2026-07-02",
+      "status": "OK",
+      "reg": "2-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 287
+    },
+    {
+      "match": "che-bih-2026-06-18",
+      "status": "OK",
+      "reg": "4-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 370
+    },
+    {
+      "match": "che-can-2026-06-24",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 288
+    },
+    {
+      "match": "che-col-2026-07-07",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 321
+    },
+    {
+      "match": "civ-ecu-2026-06-14",
+      "status": "OK",
+      "reg": "1-0",
+      "n_contracts": 40,
+      "checked": 40,
+      "fails": 0,
+      "states": 58,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 427
+    },
+    {
+      "match": "civ-nor-2026-06-30",
+      "status": "OK",
+      "reg": "1-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 293
+    },
+    {
+      "match": "col-cdr-2026-06-23",
+      "status": "OK",
+      "reg": "1-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 320
+    },
+    {
+      "match": "col-gha-2026-07-03",
+      "status": "OK",
+      "reg": "1-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 175
+    },
+    {
+      "match": "col-prt-2026-06-27",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 29,
+      "checked": 29,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 261
+    },
+    {
+      "match": "cvi-ksa-2026-06-26",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 270
+    },
+    {
+      "match": "cze-mex-2026-06-24",
+      "status": "OK",
+      "reg": "0-3",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 262
+    },
+    {
+      "match": "cze-rsa-2026-06-18",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 350
+    },
+    {
+      "match": "ecu-ger-2026-06-25",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 266
+    },
+    {
+      "match": "ecu-kor-2026-06-20",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 306
+    },
+    {
+      "match": "egy-irn-2026-06-26",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 265
+    },
+    {
+      "match": "eng-arg-2026-07-15",
+      "status": "OK",
+      "reg": "1-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 340
+    },
+    {
+      "match": "eng-cdr-2026-07-01",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 204
+    },
+    {
+      "match": "eng-gha-2026-06-23",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 254
+    },
+    {
+      "match": "eng-hrv-2026-06-17",
+      "status": "OK",
+      "reg": "4-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 458
+    },
+    {
+      "match": "esp-arg-2026-07-19",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 310
+    },
+    {
+      "match": "esp-aut-2026-07-02",
+      "status": "OK",
+      "reg": "3-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 308
+    },
+    {
+      "match": "esp-bel-2026-07-10",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 331
+    },
+    {
+      "match": "esp-cvi-2026-06-15",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 42,
+      "checked": 42,
+      "fails": 0,
+      "states": 52,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 8,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 7
+      },
+      "failed_closed": 422
+    },
+    {
+      "match": "esp-ksa-2026-06-21",
+      "status": "OK",
+      "reg": "4-0",
+      "n_contracts": 20,
+      "checked": 20,
+      "fails": 0,
+      "states": 19,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17
+      },
+      "failed_closed": 320
+    },
+    {
+      "match": "fra-eng-2026-07-18",
+      "status": "OK",
+      "reg": "4-6",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 352
+    },
+    {
+      "match": "fra-esp-2026-07-14",
+      "status": "OK",
+      "reg": "0-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 314
+    },
+    {
+      "match": "fra-irq-2026-06-22",
+      "status": "OK",
+      "reg": "3-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 225
+    },
+    {
+      "match": "fra-mar-2026-07-09",
+      "status": "OK",
+      "reg": "2-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 315
+    },
+    {
+      "match": "fra-sen-2026-06-16",
+      "status": "OK",
+      "reg": "3-1",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 287
+    },
+    {
+      "match": "fra-swe-2026-06-30",
+      "status": "OK",
+      "reg": "3-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 259
+    },
+    {
+      "match": "ger-civ-2026-06-20",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 329
+    },
+    {
+      "match": "ger-kor-2026-06-14",
+      "status": "OK",
+      "reg": "7-1",
+      "n_contracts": 45,
+      "checked": 45,
+      "fails": 0,
+      "states": 72,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 7,
+        "total-goals": 10,
+        "btts": 1,
+        "team-total": 7
+      },
+      "failed_closed": 428
+    },
+    {
+      "match": "ger-par-2026-06-29",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 337
+    },
+    {
+      "match": "gha-pan-2026-06-17",
+      "status": "OK",
+      "reg": "1-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 359
+    },
+    {
+      "match": "hai-sco-2026-06-13",
+      "status": "OK",
+      "reg": "0-1",
+      "n_contracts": 38,
+      "checked": 38,
+      "fails": 0,
+      "states": 41,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 7,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 434
+    },
+    {
+      "match": "hrv-gha-2026-06-27",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 299
+    },
+    {
+      "match": "irn-nzl-2026-06-15",
+      "status": "OK",
+      "reg": "2-2",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 356
+    },
+    {
+      "match": "irq-nor-2026-06-16",
+      "status": "OK",
+      "reg": "1-4",
+      "n_contracts": 42,
+      "checked": 42,
+      "fails": 0,
+      "states": 60,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 6,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 290
+    },
+    {
+      "match": "jor-alg-2026-06-22",
+      "status": "OK",
+      "reg": "1-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 219
+    },
+    {
+      "match": "jor-arg-2026-06-27",
+      "status": "OK",
+      "reg": "1-3",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 227
+    },
+    {
+      "match": "jpn-swe-2026-06-25",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 259
+    },
+    {
+      "match": "kor-civ-2026-06-25",
+      "status": "OK",
+      "reg": "0-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 237
+    },
+    {
+      "match": "kr-cze-2026-06-11",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 39,
+      "checked": 39,
+      "fails": 0,
+      "states": 49,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 8,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 318
+    },
+    {
+      "match": "ksa-ury-2026-06-15",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 457
+    },
+    {
+      "match": "mar-hai-2026-06-24",
+      "status": "OK",
+      "reg": "4-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 277
+    },
+    {
+      "match": "mex-ecu-2026-06-30",
+      "status": "OK",
+      "reg": "2-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 264
+    },
+    {
+      "match": "mex-eng-2026-07-05",
+      "status": "OK",
+      "reg": "2-3",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 172
+    },
+    {
+      "match": "mex-kr-2026-06-18",
+      "status": "OK",
+      "reg": "1-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 359
+    },
+    {
+      "match": "mex-rsa-2026-06-11",
+      "status": "OK",
+      "reg": "2-0",
+      "n_contracts": 40,
+      "checked": 40,
+      "fails": 0,
+      "states": 58,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 327
+    },
+    {
+      "match": "nld-jpn-2026-06-14",
+      "status": "OK",
+      "reg": "2-2",
+      "n_contracts": 40,
+      "checked": 40,
+      "fails": 0,
+      "states": 58,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 429
+    },
+    {
+      "match": "nld-mar-2026-06-29",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 261
+    },
+    {
+      "match": "nld-swe-2026-06-20",
+      "status": "OK",
+      "reg": "5-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 318
+    },
+    {
+      "match": "nor-eng-2026-07-11",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 309
+    },
+    {
+      "match": "nor-fra-2026-06-26",
+      "status": "OK",
+      "reg": "1-4",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 303
+    },
+    {
+      "match": "nor-sen-2026-06-22",
+      "status": "OK",
+      "reg": "3-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 259
+    },
+    {
+      "match": "nzl-bel-2026-06-26",
+      "status": "OK",
+      "reg": "1-5",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 268
+    },
+    {
+      "match": "nzl-egy-2026-06-21",
+      "status": "OK",
+      "reg": "1-3",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 316
+    },
+    {
+      "match": "pan-eng-2026-06-27",
+      "status": "OK",
+      "reg": "0-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 294
+    },
+    {
+      "match": "pan-hrv-2026-06-23",
+      "status": "OK",
+      "reg": "0-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 329
+    },
+    {
+      "match": "par-aus-2026-06-25",
+      "status": "OK",
+      "reg": "0-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 235
+    },
+    {
+      "match": "par-fra-2026-07-04",
+      "status": "OK",
+      "reg": "0-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 177
+    },
+    {
+      "match": "prt-cdr-2026-06-17",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 38,
+      "checked": 38,
+      "fails": 0,
+      "states": 39,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 5,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 350
+    },
+    {
+      "match": "prt-esp-2026-07-06",
+      "status": "OK",
+      "reg": "0-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 318
+    },
+    {
+      "match": "prt-hrv-2026-07-02",
+      "status": "OK",
+      "reg": "2-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 285
+    },
+    {
+      "match": "prt-uzb-2026-06-23",
+      "status": "OK",
+      "reg": "5-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 330
+    },
+    {
+      "match": "qat-che-2026-06-13",
+      "status": "OK",
+      "reg": "1-1",
+      "n_contracts": 26,
+      "checked": 26,
+      "fails": 0,
+      "states": 70,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "spread": 6,
+        "total-goals": 10,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 454
+    },
+    {
+      "match": "rsa-can-2026-06-28",
+      "status": "OK",
+      "reg": "0-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 285
+    },
+    {
+      "match": "rsa-kr-2026-06-24",
+      "status": "OK",
+      "reg": "1-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 240
+    },
+    {
+      "match": "sco-bra-2026-06-24",
+      "status": "OK",
+      "reg": "0-3",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 217
+    },
+    {
+      "match": "sco-mar-2026-06-19",
+      "status": "OK",
+      "reg": "0-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 348
+    },
+    {
+      "match": "sen-irq-2026-06-26",
+      "status": "OK",
+      "reg": "5-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 296
+    },
+    {
+      "match": "swe-tun-2026-06-14",
+      "status": "OK",
+      "reg": "5-1",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 415
+    },
+    {
+      "match": "tun-jpn-2026-06-21",
+      "status": "OK",
+      "reg": "0-4",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 313
+    },
+    {
+      "match": "tun-nld-2026-06-25",
+      "status": "OK",
+      "reg": "1-3",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 253
+    },
+    {
+      "match": "tur-par-2026-06-19",
+      "status": "OK",
+      "reg": "0-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 319
+    },
+    {
+      "match": "tur-usa-2026-06-25",
+      "status": "OK",
+      "reg": "3-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 274
+    },
+    {
+      "match": "ury-cvi-2026-06-21",
+      "status": "OK",
+      "reg": "2-2",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 319
+    },
+    {
+      "match": "ury-esp-2026-06-26",
+      "status": "OK",
+      "reg": "0-1",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 263
+    },
+    {
+      "match": "usa-aus-2026-06-19",
+      "status": "OK",
+      "reg": "2-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 331
+    },
+    {
+      "match": "usa-bel-2026-07-06",
+      "status": "OK",
+      "reg": "1-4",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 344
+    },
+    {
+      "match": "usa-bih-2026-07-01",
+      "status": "OK",
+      "reg": "2-0",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 284
+    },
+    {
+      "match": "usa-par-2026-06-12",
+      "status": "OK",
+      "reg": "4-1",
+      "n_contracts": 37,
+      "checked": 37,
+      "fails": 0,
+      "states": 37,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 4,
+        "total-goals": 6,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 426
+    },
+    {
+      "match": "uzb-col-2026-06-17",
+      "status": "OK",
+      "reg": "1-3",
+      "n_contracts": 46,
+      "checked": 46,
+      "fails": 0,
+      "states": 66,
+      "saturation": true,
+      "families": {
+        "moneyline": 3,
+        "exact-score": 17,
+        "spread": 10,
+        "total-goals": 9,
+        "btts": 1,
+        "team-total": 6
+      },
+      "failed_closed": 320
+    }
+  ]
+}

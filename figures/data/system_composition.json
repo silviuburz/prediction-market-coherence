@@ -1,0 +1,99 @@
+{
+  "by_family": {
+    "exact-score": {
+      "dev": {
+        "median": 17,
+        "min": 0,
+        "max": 17
+      },
+      "holdout": {
+        "median": 17,
+        "min": 17,
+        "max": 17
+      }
+    },
+    "moneyline": {
+      "dev": {
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "holdout": {
+        "median": 3,
+        "min": 0,
+        "max": 3
+      }
+    },
+    "total-goals": {
+      "dev": {
+        "median": 9,
+        "min": 0,
+        "max": 10
+      },
+      "holdout": {
+        "median": 9,
+        "min": 6,
+        "max": 10
+      }
+    },
+    "team-total": {
+      "dev": {
+        "median": 6,
+        "min": 0,
+        "max": 7
+      },
+      "holdout": {
+        "median": 6,
+        "min": 6,
+        "max": 7
+      }
+    },
+    "spread": {
+      "dev": {
+        "median": 10,
+        "min": 0,
+        "max": 10
+      },
+      "holdout": {
+        "median": 10,
+        "min": 4,
+        "max": 10
+      }
+    },
+    "btts": {
+      "dev": {
+        "median": 1,
+        "min": 0,
+        "max": 1
+      },
+      "holdout": {
+        "median": 1,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "ALL": {
+      "dev": {
+        "median": 46,
+        "min": 20,
+        "max": 46
+      },
+      "holdout": {
+        "median": 46,
+        "min": 37,
+        "max": 47
+      }
+    }
+  },
+  "dropped_taxonomy": {
+    "first or last scorer": 309,
+    "player goal or assist props": 13225,
+    "shots and saves": 13343,
+    "corners": 1615,
+    "tournament progression": 32,
+    "timing and periods": 30,
+    "penalties and VAR": 30,
+    "cards and discipline": 113
+  },
+  "unclassified_shapes": {}
+}
