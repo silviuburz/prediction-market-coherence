@@ -4,6 +4,8 @@ Code and replication materials for **A Payoff-Compiled Audit of Dynamic
 Coherence in Linked Prediction-Market Order Books**, by **Silviu Burz** and
 **Costin-Gabriel Chiru**, IEEE Access, 2026.
 
+**Project website:** [silviuburz.github.io/prediction-market-coherence](https://silviuburz.github.io/prediction-market-coherence/)
+
 **Read the paper:** [10.1109/ACCESS.2026.3746471](https://doi.org/10.1109/ACCESS.2026.3746471)
 
 Citation details are in [CITATION.cff](./CITATION.cff).

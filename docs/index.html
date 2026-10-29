@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prediction-market coherence | Burz &amp; Chiru</title>
+  <meta name="description" content="A joint audit of linked prediction-market quotes. Read the IEEE Access paper, explore the coherence test, and find the code and replication materials.">
+  <meta name="theme-color" content="#15304a">
+  <meta name="citation_title" content="A Payoff-Compiled Audit of Dynamic Coherence in Linked Prediction-Market Order Books">
+  <meta name="citation_author" content="Burz, Silviu">
+  <meta name="citation_author" content="Chiru, Costin-Gabriel">
+  <meta name="citation_journal_title" content="IEEE Access">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_doi" content="10.1109/ACCESS.2026.3746471">
+  <link rel="canonical" href="https://silviuburz.github.io/prediction-market-coherence/">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="project-name" href="#main">Prediction-market coherence</a>
+      <nav aria-label="On this page">
+        <a href="#findings">Findings</a>
+        <a href="#materials">Materials</a>
+        <a href="#citation">Cite</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="paper-title">
+        <div class="publication">
+          <span class="badge">IEEE Access</span>
+          <span class="publication-year">Research article &middot; 2026</span>
+        </div>
+        <h1 id="paper-title">A Payoff-Compiled Audit of Dynamic Coherence in Linked Prediction-Market Order Books</h1>
+        <p class="authors">
+          <a href="https://orcid.org/0009-0007-3074-8414">Silviu Burz</a>
+          <span aria-hidden="true">&amp;</span>
+          <a href="https://orcid.org/0000-0002-1142-8008">Costin-Gabriel Chiru</a>
+        </p>
+        <p class="affiliation">National University of Science and Technology POLITEHNICA Bucharest</p>
+        <p class="hero-summary">Can the prices of linked claims all fit one probability distribution?
+          We turn settlement rules into a joint consistency test and measure what changes after a goal.</p>
+        <div class="actions">
+          <a class="button button-primary" href="https://doi.org/10.1109/ACCESS.2026.3746471">Read the paper <span aria-hidden="true">&nearr;</span></a>
+          <a class="button button-secondary" href="https://github.com/silviuburz/prediction-market-coherence">Code &amp; materials <span aria-hidden="true">&nearr;</span></a>
+          <a class="text-link" href="#citation">Cite this work <span aria-hidden="true">&darr;</span></a>
+        </div>
+        <p class="doi">DOI <a href="https://doi.org/10.1109/ACCESS.2026.3746471">10.1109/ACCESS.2026.3746471</a></p>
+      </section>
+
+      <figure class="instrument">
+        <div class="figure-heading">
+          <span class="eyebrow">The measurement instrument</span>
+          <a href="assets/instrument.svg" target="_blank" rel="noopener">Open full-size figure <span aria-hidden="true">&nearr;</span></a>
+        </div>
+        <a class="figure-link" href="assets/instrument.svg" target="_blank" rel="noopener" aria-label="Open Figure 1 at full size">
+          <img src="assets/instrument.svg" width="1200" height="464"
+            alt="Three panels from Figure 1: settlement rules become payoff vectors; a quoted-price box is widened until it touches the coherent-price set; a three-outcome example with lower bounds summing to 1.04 needs 1.33 cents per bound of widening.">
+        </a>
+        <figcaption><strong>From settlement rules to a joint test.</strong>
+          The coherence radius is the smallest uniform widening of bid and ask bounds
+          that lets one outcome distribution price all the contracts.
+          It measures quote incompatibility, not executable profit.</figcaption>
+      </figure>
+
+      <section class="section findings" id="findings" aria-labelledby="findings-title">
+        <div class="section-heading">
+          <p class="eyebrow">Main finding</p>
+          <h2 id="findings-title">After goals, linked quotes become less compatible.</h2>
+        </div>
+        <div class="finding-grid">
+          <div class="result">
+            <p class="result-label">Corrected increase in the coherence radius</p>
+            <p class="result-number"><span data-claim="corrected-effect">+0.425</span> <span class="result-unit">cents per bound</span></p>
+            <p class="interval">95% match-level confidence interval
+              [<span data-claim="corrected-low">0.316</span>, <span data-claim="corrected-high">0.538</span>]</p>
+            <p>Measured 6 to 30 seconds after a goal, across
+              <span data-claim="evaluation-goals">125</span> isolated goals in
+              <span data-claim="evaluation-matches">51</span> evaluation matches.
+              The corrected increase is positive in <span data-claim="positive-matches">45</span> of those matches.</p>
+          </div>
+          <aside class="result-context" aria-label="How to interpret this result">
+            <p><strong>A small change, measured jointly.</strong> The study covers
+              <span data-claim="corpus-files">2,830,249</span> order-book files from
+              <span data-claim="corpus-matches">104</span> World Cup matches on Polymarket.</p>
+            <p>The original confirmatory estimate is
+              <strong><span data-claim="original-effect">+0.436</span> cents</strong>.
+              The study used a holdout, that is, evaluation matches kept separate
+              while the original design was fixed.
+              Payoff corrections followed inspection of that sample.
+              The corrected result is <strong>not a second confirmation</strong>.</p>
+            <p class="scope-note">Displayed quotes, not private beliefs or a demonstrated trading return.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section abstract" id="abstract" aria-labelledby="abstract-title">
+        <div class="section-heading">
+          <p class="eyebrow">The paper</p>
+          <h2 id="abstract-title">Abstract</h2>
+        </div>
+        <div class="abstract-text" id="paper-abstract">
+          <p>In this paper, we audit probabilistic coherence across contracts resolving on a
+            shared outcome. A resolution-rule compiler maps football contracts to payoff vectors over a
+            provably sufficient finite score state space. A linear program computes the
+            <em>coherence radius</em>: how far every displayed bid-ask bound must move
+            outward before one common outcome distribution can
+            price all contracts at once. Unlike pairwise checks, the test is
+            joint across the linked system and returns one quantity in cents per bound.
+            We apply it to 2,830,249 order-book files captured from Polymarket across 104
+            matches at the 2026 FIFA World Cup, with approximately 46 contracts per match.
+            Analysis choices fixed on 49 development matches were applied to 55 held-out matches.
+            The original confirmatory estimate was +0.436 cents.
+            Payoff corrections after holdout inspection give +0.425 cents
+            (95% match-level confidence interval 0.316 to 0.538) across 51 matches with isolated goals
+            in the 6-30 seconds after a goal, positive in 45 of 51 matches.
+            Diagnostics use the registered specification. Although the mean is sub-tick,
+            the incoherent share, the share of goals whose window-mean radius exceeds 0.25 cents,
+            a quarter of the median tick, rises from 12.8% to 59.2%; the measured quantity is
+            temporary incompatibility among displayed quotes, not executable arbitrage or private beliefs.
+            The response fades within two minutes and is near zero around scheduled and lower-score-relevance
+            events. A coherent-belief null on each contract's active tick grid produces no
+            increase; excluding exact-score contracts leaves a smaller +0.079 cents.</p>
+        </div>
+      </section>
+
+      <section class="section materials" id="materials" aria-labelledby="materials-title">
+        <div class="section-heading">
+          <p class="eyebrow">Code &amp; replication</p>
+          <h2 id="materials-title">Check the numbers. Redraw the figures.</h2>
+        </div>
+        <p>The repository contains the analysis code, pinned requirements, derived result files
+          and verification records. Readers can reproduce the reported numbers and figures
+          <strong>from those supplied results</strong>, offline after setup.</p>
+        <p>The <strong>23.70 GB raw corpus is not included</strong>.
+          Rebuilding the derived result files from raw order books is not supported by this release.</p>
+        <div class="resource-links">
+          <a href="https://github.com/silviuburz/prediction-market-coherence#setup-and-checks">Setup &amp; checks <span aria-hidden="true">&nearr;</span></a>
+          <a href="https://github.com/silviuburz/prediction-market-coherence/tree/main/figures/data">Derived results <span aria-hidden="true">&nearr;</span></a>
+          <a href="https://github.com/silviuburz/prediction-market-coherence/blob/main/PROVENANCE.json">Code-to-result records <span aria-hidden="true">&nearr;</span></a>
+        </div>
+        <p class="snapshot">For the original paper-associated files:
+          <a href="https://github.com/silviuburz/prediction-market-coherence/tree/96295e099d2c4d6b1f1e7797684723e48901257d">view the fixed snapshot</a>
+          or <a href="https://github.com/silviuburz/prediction-market-coherence/archive/96295e099d2c4d6b1f1e7797684723e48901257d.zip">download its ZIP</a>.</p>
+      </section>
+
+      <section class="section citation" id="citation" aria-labelledby="citation-title">
+        <div class="citation-heading">
+          <div class="section-heading">
+            <p class="eyebrow">Reference</p>
+            <h2 id="citation-title">Cite this work</h2>
+          </div>
+          <div class="citation-actions">
+            <button type="button" class="button button-small" id="copy-citation" hidden>Copy BibTeX</button>
+            <a class="text-link" href="citation.bib" download>Download .bib</a>
+          </div>
+        </div>
+        <pre class="citation-code" tabindex="0" aria-label="BibTeX citation"><code id="bibtex">@article{BurzChiru2026Coherence,
+  author  = {Burz, Silviu and Chiru, Costin-Gabriel},
+  title   = {A Payoff-Compiled Audit of Dynamic Coherence in Linked Prediction-Market Order Books},
+  journal = {IEEE Access},
+  year    = {2026},
+  doi     = {10.1109/ACCESS.2026.3746471},
+  url     = {https://doi.org/10.1109/ACCESS.2026.3746471}
+}</code></pre>
+        <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+        <noscript><p>Select the citation above or download the BibTeX file. Copying with the button requires JavaScript.</p></noscript>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Authors' project page. Read the version of record on <a href="https://doi.org/10.1109/ACCESS.2026.3746471">IEEE Xplore</a>.</p>
+      <p>Paper: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+        Code and data terms: <a href="https://github.com/silviuburz/prediction-market-coherence#licenses">repository licenses</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>
